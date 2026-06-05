@@ -1,0 +1,67 @@
+# .understandignore — patterns for files/dirs to exclude from analysis
+# Syntax: same as .gitignore (globs, # comments, ! negation, trailing / for dirs)
+# Lines below are suggestions — uncomment to activate.
+# Use ! prefix to force-include something excluded by defaults.
+#
+# Built-in defaults (always excluded unless negated):
+#   node_modules/, .git/, dist/, build/, obj/, *.lock, *.min.js, etc.
+#
+# --- From .gitignore (uncomment to exclude) ---
+
+# docker/.cache/
+# .omc/
+# .DS_Store
+# *.local
+# ._*
+# .Spotlight-V100
+# .Trashes
+# ehthumbs.db
+# Thumbs.db
+# *.pyc
+# *.pyo
+# .env
+# config.yaml
+# mcp_config.json
+# extensions_config.json
+# coverage.xml
+# .deer-flow/
+# .claude/
+# skills/custom/*
+# logs/
+# log/
+# debug.log
+# .githooks/
+# .pnpm-store
+# sandbox_image_cache.tar
+# web/
+# backend/Dockerfile.langgraph
+# config.yaml.bak
+# .playwright-mcp
+# /frontend/test-results/
+# /frontend/playwright-report/
+# .gstack/
+# .worktrees
+
+# --- Scope: backend core only (configured via /understand) ---
+
+# Out of scope: frontend and skills directories
+frontend/
+skills/
+
+# Excluded: documentation directories
+docs/
+backend/docs/
+
+# Excluded: test directories
+backend/tests/
+frontend/tests/
+
+# --- Detected directories (uncomment to exclude) ---
+
+# scripts/
+
+# --- Test file patterns (uncomment to exclude) ---
+
+# *.test.*
+# *.spec.*
+# *.snap

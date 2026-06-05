@@ -1,0 +1,2807 @@
+{
+  "name": "deer-flow",
+  "description": "基于 LangGraph 构建的 AI agent 系统，具备 sandbox 执行能力；作为可编排 sub-agent、memory 与 sandbox 的开源 super agent harness，后端采用 Python 3.12+、FastAPI 与 LangGraph 实现。 注意：本项目包含超过 100 个源文件，建议将分析范围限定到某个子目录以获得更快的结果。",
+  "languages": [
+    "batch",
+    "code-workspace",
+    "conf",
+    "config",
+    "dockerfile",
+    "json",
+    "makefile",
+    "markdown",
+    "python",
+    "shell",
+    "toml",
+    "unknown",
+    "yaml"
+  ],
+  "frameworks": [
+    "FastAPI",
+    "LangGraph",
+    "LangChain",
+    "Uvicorn",
+    "SQLAlchemy",
+    "Alembic",
+    "Pydantic",
+    "pytest",
+    "Docker",
+    "Docker Compose",
+    "GitHub Actions"
+  ],
+  "files": [
+    {
+      "path": ".dockerignore",
+      "language": "unknown",
+      "sizeLines": 71,
+      "fileCategory": "infra"
+    },
+    {
+      "path": ".env.example",
+      "language": "config",
+      "sizeLines": 47,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".gitattributes",
+      "language": "unknown",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".github/copilot-instructions.md",
+      "language": "markdown",
+      "sizeLines": 213,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/runtime-information.yml",
+      "language": "yaml",
+      "sizeLines": 128,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".github/workflows/backend-unit-tests.yml",
+      "language": "yaml",
+      "sizeLines": 40,
+      "fileCategory": "infra"
+    },
+    {
+      "path": ".github/workflows/e2e-tests.yml",
+      "language": "yaml",
+      "sizeLines": 63,
+      "fileCategory": "infra"
+    },
+    {
+      "path": ".github/workflows/frontend-unit-tests.yml",
+      "language": "yaml",
+      "sizeLines": 43,
+      "fileCategory": "infra"
+    },
+    {
+      "path": ".github/workflows/lint-check.yml",
+      "language": "yaml",
+      "sizeLines": 74,
+      "fileCategory": "infra"
+    },
+    {
+      "path": ".pre-commit-config.yaml",
+      "language": "yaml",
+      "sizeLines": 33,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".understand-anything/.understandignore",
+      "language": "unknown",
+      "sizeLines": 67,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".understand-anything/config.json",
+      "language": "json",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "backend/.python-version",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/AGENTS.md",
+      "language": "markdown",
+      "sizeLines": 1,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "backend/app/__init__.py",
+      "language": "python",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/channels/__init__.py",
+      "language": "python",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/channels/base.py",
+      "language": "python",
+      "sizeLines": 130,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/channels/commands.py",
+      "language": "python",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/channels/dingtalk.py",
+      "language": "python",
+      "sizeLines": 740,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/channels/discord.py",
+      "language": "python",
+      "sizeLines": 273,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/channels/feishu.py",
+      "language": "python",
+      "sizeLines": 698,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/channels/manager.py",
+      "language": "python",
+      "sizeLines": 992,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/channels/message_bus.py",
+      "language": "python",
+      "sizeLines": 173,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/channels/service.py",
+      "language": "python",
+      "sizeLines": 230,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/channels/slack.py",
+      "language": "python",
+      "sizeLines": 264,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/channels/store.py",
+      "language": "python",
+      "sizeLines": 153,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/channels/telegram.py",
+      "language": "python",
+      "sizeLines": 317,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/channels/wechat.py",
+      "language": "python",
+      "sizeLines": 1370,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/channels/wecom.py",
+      "language": "python",
+      "sizeLines": 398,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/__init__.py",
+      "language": "python",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/app.py",
+      "language": "python",
+      "sizeLines": 389,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/auth_middleware.py",
+      "language": "python",
+      "sizeLines": 126,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/auth/__init__.py",
+      "language": "python",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/auth/config.py",
+      "language": "python",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/auth/credential_file.py",
+      "language": "python",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/auth/errors.py",
+      "language": "python",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/auth/jwt.py",
+      "language": "python",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/auth/local_provider.py",
+      "language": "python",
+      "sizeLines": 104,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/auth/models.py",
+      "language": "python",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/auth/password.py",
+      "language": "python",
+      "sizeLines": 81,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/auth/providers.py",
+      "language": "python",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/auth/repositories/__init__.py",
+      "language": "python",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/auth/repositories/base.py",
+      "language": "python",
+      "sizeLines": 102,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/auth/repositories/sqlite.py",
+      "language": "python",
+      "sizeLines": 127,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/auth/reset_admin.py",
+      "language": "python",
+      "sizeLines": 91,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/authz.py",
+      "language": "python",
+      "sizeLines": 301,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/config.py",
+      "language": "python",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/csrf_middleware.py",
+      "language": "python",
+      "sizeLines": 113,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/deps.py",
+      "language": "python",
+      "sizeLines": 245,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/internal_auth.py",
+      "language": "python",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/langgraph_auth.py",
+      "language": "python",
+      "sizeLines": 106,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/path_utils.py",
+      "language": "python",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/routers/__init__.py",
+      "language": "python",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/routers/agents.py",
+      "language": "python",
+      "sizeLines": 421,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/routers/artifacts.py",
+      "language": "python",
+      "sizeLines": 183,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/routers/assistants_compat.py",
+      "language": "python",
+      "sizeLines": 149,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/routers/auth.py",
+      "language": "python",
+      "sizeLines": 493,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/routers/channels.py",
+      "language": "python",
+      "sizeLines": 52,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/routers/feedback.py",
+      "language": "python",
+      "sizeLines": 188,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/routers/mcp.py",
+      "language": "python",
+      "sizeLines": 169,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/routers/memory.py",
+      "language": "python",
+      "sizeLines": 356,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/routers/models.py",
+      "language": "python",
+      "sizeLines": 132,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/routers/runs.py",
+      "language": "python",
+      "sizeLines": 143,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/routers/skills.py",
+      "language": "python",
+      "sizeLines": 352,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/routers/suggestions.py",
+      "language": "python",
+      "sizeLines": 141,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/routers/thread_runs.py",
+      "language": "python",
+      "sizeLines": 377,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/routers/threads.py",
+      "language": "python",
+      "sizeLines": 619,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/routers/uploads.py",
+      "language": "python",
+      "sizeLines": 312,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/services.py",
+      "language": "python",
+      "sizeLines": 349,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/app/gateway/utils.py",
+      "language": "python",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/CLAUDE.md",
+      "language": "markdown",
+      "sizeLines": 566,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "backend/CONTRIBUTING.md",
+      "language": "markdown",
+      "sizeLines": 426,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "backend/debug.py",
+      "language": "python",
+      "sizeLines": 148,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/Dockerfile",
+      "language": "dockerfile",
+      "sizeLines": 91,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "backend/langgraph.json",
+      "language": "json",
+      "sizeLines": 17,
+      "fileCategory": "config"
+    },
+    {
+      "path": "backend/Makefile",
+      "language": "makefile",
+      "sizeLines": 18,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/__init__.py",
+      "language": "python",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/__init__.py",
+      "language": "python",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/factory.py",
+      "language": "python",
+      "sizeLines": 374,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/features.py",
+      "language": "python",
+      "sizeLines": 62,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/lead_agent/__init__.py",
+      "language": "python",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/lead_agent/agent.py",
+      "language": "python",
+      "sizeLines": 411,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/lead_agent/prompt.py",
+      "language": "python",
+      "sizeLines": 784,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/memory/__init__.py",
+      "language": "python",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/memory/message_processing.py",
+      "language": "python",
+      "sizeLines": 109,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/memory/prompt.py",
+      "language": "python",
+      "sizeLines": 363,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/memory/queue.py",
+      "language": "python",
+      "sizeLines": 277,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/memory/storage.py",
+      "language": "python",
+      "sizeLines": 231,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/memory/summarization_hook.py",
+      "language": "python",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/memory/updater.py",
+      "language": "python",
+      "sizeLines": 611,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/middlewares/__init__.py",
+      "language": "python",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/middlewares/clarification_middleware.py",
+      "language": "python",
+      "sizeLines": 200,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/middlewares/dangling_tool_call_middleware.py",
+      "language": "python",
+      "sizeLines": 149,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/middlewares/deferred_tool_filter_middleware.py",
+      "language": "python",
+      "sizeLines": 107,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/middlewares/llm_error_handling_middleware.py",
+      "language": "python",
+      "sizeLines": 368,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/middlewares/loop_detection_middleware.py",
+      "language": "python",
+      "sizeLines": 389,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/middlewares/memory_middleware.py",
+      "language": "python",
+      "sizeLines": 110,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/middlewares/sandbox_audit_middleware.py",
+      "language": "python",
+      "sizeLines": 363,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/middlewares/subagent_limit_middleware.py",
+      "language": "python",
+      "sizeLines": 75,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/middlewares/summarization_middleware.py",
+      "language": "python",
+      "sizeLines": 354,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/middlewares/thread_data_middleware.py",
+      "language": "python",
+      "sizeLines": 118,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/middlewares/title_middleware.py",
+      "language": "python",
+      "sizeLines": 179,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/middlewares/todo_middleware.py",
+      "language": "python",
+      "sizeLines": 179,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/middlewares/token_usage_middleware.py",
+      "language": "python",
+      "sizeLines": 37,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/middlewares/tool_error_handling_middleware.py",
+      "language": "python",
+      "sizeLines": 167,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/middlewares/uploads_middleware.py",
+      "language": "python",
+      "sizeLines": 295,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/middlewares/view_image_middleware.py",
+      "language": "python",
+      "sizeLines": 222,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/thread_state.py",
+      "language": "python",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/client.py",
+      "language": "python",
+      "sizeLines": 1199,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/community/aio_sandbox/__init__.py",
+      "language": "python",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/community/aio_sandbox/aio_sandbox_provider.py",
+      "language": "python",
+      "sizeLines": 707,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/community/aio_sandbox/aio_sandbox.py",
+      "language": "python",
+      "sizeLines": 238,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/community/aio_sandbox/backend.py",
+      "language": "python",
+      "sizeLines": 114,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/community/aio_sandbox/local_backend.py",
+      "language": "python",
+      "sizeLines": 619,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/community/aio_sandbox/remote_backend.py",
+      "language": "python",
+      "sizeLines": 156,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/community/aio_sandbox/sandbox_info.py",
+      "language": "python",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/community/ddg_search/__init__.py",
+      "language": "python",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/community/ddg_search/tools.py",
+      "language": "python",
+      "sizeLines": 95,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/community/exa/tools.py",
+      "language": "python",
+      "sizeLines": 79,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/community/firecrawl/tools.py",
+      "language": "python",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/community/image_search/__init__.py",
+      "language": "python",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/community/image_search/tools.py",
+      "language": "python",
+      "sizeLines": 135,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/community/infoquest/infoquest_client.py",
+      "language": "python",
+      "sizeLines": 404,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/community/infoquest/tools.py",
+      "language": "python",
+      "sizeLines": 93,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/community/jina_ai/jina_client.py",
+      "language": "python",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/community/jina_ai/tools.py",
+      "language": "python",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/community/tavily/tools.py",
+      "language": "python",
+      "sizeLines": 62,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/config/__init__.py",
+      "language": "python",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/config/acp_config.py",
+      "language": "python",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/config/agents_api_config.py",
+      "language": "python",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/config/agents_config.py",
+      "language": "python",
+      "sizeLines": 135,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/config/app_config.py",
+      "language": "python",
+      "sizeLines": 454,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/config/checkpointer_config.py",
+      "language": "python",
+      "sizeLines": 46,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/config/database_config.py",
+      "language": "python",
+      "sizeLines": 102,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/config/extensions_config.py",
+      "language": "python",
+      "sizeLines": 263,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/config/guardrails_config.py",
+      "language": "python",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/config/memory_config.py",
+      "language": "python",
+      "sizeLines": 83,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/config/model_config.py",
+      "language": "python",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/config/paths.py",
+      "language": "python",
+      "sizeLines": 337,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/config/run_events_config.py",
+      "language": "python",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/config/runtime_paths.py",
+      "language": "python",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/config/sandbox_config.py",
+      "language": "python",
+      "sizeLines": 83,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/config/skill_evolution_config.py",
+      "language": "python",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/config/skills_config.py",
+      "language": "python",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/config/stream_bridge_config.py",
+      "language": "python",
+      "sizeLines": 46,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/config/subagents_config.py",
+      "language": "python",
+      "sizeLines": 187,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/config/summarization_config.py",
+      "language": "python",
+      "sizeLines": 93,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/config/title_config.py",
+      "language": "python",
+      "sizeLines": 53,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/config/token_usage_config.py",
+      "language": "python",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/config/tool_config.py",
+      "language": "python",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/config/tool_search_config.py",
+      "language": "python",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/config/tracing_config.py",
+      "language": "python",
+      "sizeLines": 149,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/guardrails/__init__.py",
+      "language": "python",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/guardrails/builtin.py",
+      "language": "python",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/guardrails/middleware.py",
+      "language": "python",
+      "sizeLines": 98,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/guardrails/provider.py",
+      "language": "python",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/mcp/__init__.py",
+      "language": "python",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/mcp/cache.py",
+      "language": "python",
+      "sizeLines": 142,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/mcp/client.py",
+      "language": "python",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/mcp/oauth.py",
+      "language": "python",
+      "sizeLines": 150,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/mcp/tools.py",
+      "language": "python",
+      "sizeLines": 135,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/models/__init__.py",
+      "language": "python",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/models/claude_provider.py",
+      "language": "python",
+      "sizeLines": 359,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/models/credential_loader.py",
+      "language": "python",
+      "sizeLines": 219,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/models/factory.py",
+      "language": "python",
+      "sizeLines": 157,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/models/mindie_provider.py",
+      "language": "python",
+      "sizeLines": 249,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/models/openai_codex_provider.py",
+      "language": "python",
+      "sizeLines": 433,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/models/patched_deepseek.py",
+      "language": "python",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/models/patched_minimax.py",
+      "language": "python",
+      "sizeLines": 220,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/models/patched_openai.py",
+      "language": "python",
+      "sizeLines": 132,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/models/vllm_provider.py",
+      "language": "python",
+      "sizeLines": 258,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/persistence/__init__.py",
+      "language": "python",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/persistence/base.py",
+      "language": "python",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/persistence/engine.py",
+      "language": "python",
+      "sizeLines": 190,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/persistence/feedback/__init__.py",
+      "language": "python",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/persistence/feedback/model.py",
+      "language": "python",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/persistence/feedback/sql.py",
+      "language": "python",
+      "sizeLines": 217,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/persistence/migrations/alembic.ini",
+      "language": "config",
+      "sizeLines": 38,
+      "fileCategory": "config"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/persistence/migrations/env.py",
+      "language": "python",
+      "sizeLines": 67,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/persistence/migrations/versions/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/persistence/models/__init__.py",
+      "language": "python",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/persistence/models/run_event.py",
+      "language": "python",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/persistence/run/__init__.py",
+      "language": "python",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/persistence/run/model.py",
+      "language": "python",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/persistence/run/sql.py",
+      "language": "python",
+      "sizeLines": 255,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/persistence/thread_meta/__init__.py",
+      "language": "python",
+      "sizeLines": 38,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/persistence/thread_meta/base.py",
+      "language": "python",
+      "sizeLines": 76,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/persistence/thread_meta/memory.py",
+      "language": "python",
+      "sizeLines": 149,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/persistence/thread_meta/model.py",
+      "language": "python",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/persistence/thread_meta/sql.py",
+      "language": "python",
+      "sizeLines": 217,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/persistence/user/__init__.py",
+      "language": "python",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/persistence/user/model.py",
+      "language": "python",
+      "sizeLines": 59,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/reflection/__init__.py",
+      "language": "python",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/reflection/resolvers.py",
+      "language": "python",
+      "sizeLines": 95,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/__init__.py",
+      "language": "python",
+      "sizeLines": 46,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/checkpointer/__init__.py",
+      "language": "python",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/checkpointer/async_provider.py",
+      "language": "python",
+      "sizeLines": 160,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/checkpointer/provider.py",
+      "language": "python",
+      "sizeLines": 192,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/converters.py",
+      "language": "python",
+      "sizeLines": 136,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/events/__init__.py",
+      "language": "python",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/events/store/__init__.py",
+      "language": "python",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/events/store/base.py",
+      "language": "python",
+      "sizeLines": 109,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/events/store/db.py",
+      "language": "python",
+      "sizeLines": 286,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/events/store/jsonl.py",
+      "language": "python",
+      "sizeLines": 187,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/events/store/memory.py",
+      "language": "python",
+      "sizeLines": 128,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/journal.py",
+      "language": "python",
+      "sizeLines": 382,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/runs/__init__.py",
+      "language": "python",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/runs/manager.py",
+      "language": "python",
+      "sizeLines": 253,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/runs/schemas.py",
+      "language": "python",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/runs/store/__init__.py",
+      "language": "python",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/runs/store/base.py",
+      "language": "python",
+      "sizeLines": 95,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/runs/store/memory.py",
+      "language": "python",
+      "sizeLines": 98,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/runs/worker.py",
+      "language": "python",
+      "sizeLines": 569,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/serialization.py",
+      "language": "python",
+      "sizeLines": 78,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/store/__init__.py",
+      "language": "python",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/store/_sqlite_utils.py",
+      "language": "python",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/store/async_provider.py",
+      "language": "python",
+      "sizeLines": 114,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/store/provider.py",
+      "language": "python",
+      "sizeLines": 188,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/stream_bridge/__init__.py",
+      "language": "python",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/stream_bridge/async_provider.py",
+      "language": "python",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/stream_bridge/base.py",
+      "language": "python",
+      "sizeLines": 72,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/stream_bridge/memory.py",
+      "language": "python",
+      "sizeLines": 133,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/user_context.py",
+      "language": "python",
+      "sizeLines": 167,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/sandbox/__init__.py",
+      "language": "python",
+      "sizeLines": 8,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/sandbox/exceptions.py",
+      "language": "python",
+      "sizeLines": 71,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/sandbox/file_operation_lock.py",
+      "language": "python",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/sandbox/local/__init__.py",
+      "language": "python",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/sandbox/local/list_dir.py",
+      "language": "python",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/sandbox/local/local_sandbox_provider.py",
+      "language": "python",
+      "sizeLines": 121,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/sandbox/local/local_sandbox.py",
+      "language": "python",
+      "sizeLines": 436,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/sandbox/middleware.py",
+      "language": "python",
+      "sizeLines": 83,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/sandbox/sandbox_provider.py",
+      "language": "python",
+      "sizeLines": 98,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/sandbox/sandbox.py",
+      "language": "python",
+      "sizeLines": 93,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/sandbox/search.py",
+      "language": "python",
+      "sizeLines": 210,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/sandbox/security.py",
+      "language": "python",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/sandbox/tools.py",
+      "language": "python",
+      "sizeLines": 1582,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/subagents/__init__.py",
+      "language": "python",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/subagents/builtins/__init__.py",
+      "language": "python",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/subagents/builtins/bash_agent.py",
+      "language": "python",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/subagents/builtins/general_purpose.py",
+      "language": "python",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/subagents/config.py",
+      "language": "python",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/subagents/executor.py",
+      "language": "python",
+      "sizeLines": 791,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/subagents/registry.py",
+      "language": "python",
+      "sizeLines": 165,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/tools/__init__.py",
+      "language": "python",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/tools/builtins/__init__.py",
+      "language": "python",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/tools/builtins/clarification_tool.py",
+      "language": "python",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/tools/builtins/invoke_acp_agent_tool.py",
+      "language": "python",
+      "sizeLines": 257,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/tools/builtins/present_file_tool.py",
+      "language": "python",
+      "sizeLines": 122,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/tools/builtins/setup_agent_tool.py",
+      "language": "python",
+      "sizeLines": 71,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/tools/builtins/task_tool.py",
+      "language": "python",
+      "sizeLines": 308,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/tools/builtins/tool_search.py",
+      "language": "python",
+      "sizeLines": 202,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/tools/builtins/view_image_tool.py",
+      "language": "python",
+      "sizeLines": 162,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/tools/skill_manage_tool.py",
+      "language": "python",
+      "sizeLines": 239,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/tools/tools.py",
+      "language": "python",
+      "sizeLines": 175,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/tracing/__init__.py",
+      "language": "python",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/tracing/factory.py",
+      "language": "python",
+      "sizeLines": 54,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/uploads/__init__.py",
+      "language": "python",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/uploads/manager.py",
+      "language": "python",
+      "sizeLines": 202,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/utils/file_conversion.py",
+      "language": "python",
+      "sizeLines": 315,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/utils/network.py",
+      "language": "python",
+      "sizeLines": 139,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/deerflow/utils/readability.py",
+      "language": "python",
+      "sizeLines": 83,
+      "fileCategory": "code"
+    },
+    {
+      "path": "backend/packages/harness/pyproject.toml",
+      "language": "toml",
+      "sizeLines": 56,
+      "fileCategory": "config"
+    },
+    {
+      "path": "backend/pyproject.toml",
+      "language": "toml",
+      "sizeLines": 49,
+      "fileCategory": "config"
+    },
+    {
+      "path": "backend/README.md",
+      "language": "markdown",
+      "sizeLines": 418,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "backend/ruff.toml",
+      "language": "toml",
+      "sizeLines": 13,
+      "fileCategory": "config"
+    },
+    {
+      "path": "backend/scripts/migrate_user_isolation.py",
+      "language": "python",
+      "sizeLines": 159,
+      "fileCategory": "code"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "language": "markdown",
+      "sizeLines": 128,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "config.example.yaml",
+      "language": "yaml",
+      "sizeLines": 1034,
+      "fileCategory": "config"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "language": "markdown",
+      "sizeLines": 340,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "deer-flow.code-workspace",
+      "language": "code-workspace",
+      "sizeLines": 46,
+      "fileCategory": "code"
+    },
+    {
+      "path": "docker/docker-compose-dev.yaml",
+      "language": "yaml",
+      "sizeLines": 187,
+      "fileCategory": "config"
+    },
+    {
+      "path": "docker/docker-compose.yaml",
+      "language": "yaml",
+      "sizeLines": 149,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "docker/nginx/nginx.conf",
+      "language": "conf",
+      "sizeLines": 241,
+      "fileCategory": "code"
+    },
+    {
+      "path": "docker/nginx/nginx.local.conf",
+      "language": "conf",
+      "sizeLines": 245,
+      "fileCategory": "code"
+    },
+    {
+      "path": "docker/provisioner/app.py",
+      "language": "python",
+      "sizeLines": 582,
+      "fileCategory": "code"
+    },
+    {
+      "path": "docker/provisioner/Dockerfile",
+      "language": "dockerfile",
+      "sizeLines": 29,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "docker/provisioner/README.md",
+      "language": "markdown",
+      "sizeLines": 332,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "extensions_config.example.json",
+      "language": "json",
+      "sizeLines": 44,
+      "fileCategory": "config"
+    },
+    {
+      "path": "Install.md",
+      "language": "markdown",
+      "sizeLines": 87,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "Makefile",
+      "language": "makefile",
+      "sizeLines": 183,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "README_fr.md",
+      "language": "markdown",
+      "sizeLines": 629,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "README_ja.md",
+      "language": "markdown",
+      "sizeLines": 582,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "README_ru.md",
+      "language": "markdown",
+      "sizeLines": 505,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "README_zh.md",
+      "language": "markdown",
+      "sizeLines": 604,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "sizeLines": 760,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "scripts/check.py",
+      "language": "python",
+      "sizeLines": 170,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/check.sh",
+      "language": "shell",
+      "sizeLines": 85,
+      "fileCategory": "script"
+    },
+    {
+      "path": "scripts/cleanup-containers.sh",
+      "language": "shell",
+      "sizeLines": 95,
+      "fileCategory": "script"
+    },
+    {
+      "path": "scripts/config-upgrade.sh",
+      "language": "shell",
+      "sizeLines": 155,
+      "fileCategory": "script"
+    },
+    {
+      "path": "scripts/configure.py",
+      "language": "python",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/deploy.sh",
+      "language": "shell",
+      "sizeLines": 273,
+      "fileCategory": "script"
+    },
+    {
+      "path": "scripts/docker.sh",
+      "language": "shell",
+      "sizeLines": 357,
+      "fileCategory": "script"
+    },
+    {
+      "path": "scripts/doctor.py",
+      "language": "python",
+      "sizeLines": 721,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/export_claude_code_oauth.py",
+      "language": "python",
+      "sizeLines": 166,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/load_memory_sample.py",
+      "language": "python",
+      "sizeLines": 81,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/run-with-git-bash.cmd",
+      "language": "batch",
+      "sizeLines": 20,
+      "fileCategory": "script"
+    },
+    {
+      "path": "scripts/serve.sh",
+      "language": "shell",
+      "sizeLines": 261,
+      "fileCategory": "script"
+    },
+    {
+      "path": "scripts/setup_wizard.py",
+      "language": "python",
+      "sizeLines": 165,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/start-daemon.sh",
+      "language": "shell",
+      "sizeLines": 9,
+      "fileCategory": "script"
+    },
+    {
+      "path": "scripts/tool-error-degradation-detection.sh",
+      "language": "shell",
+      "sizeLines": 218,
+      "fileCategory": "script"
+    },
+    {
+      "path": "scripts/wait-for-port.sh",
+      "language": "shell",
+      "sizeLines": 56,
+      "fileCategory": "script"
+    },
+    {
+      "path": "scripts/wizard/__init__.py",
+      "language": "python",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/wizard/providers.py",
+      "language": "python",
+      "sizeLines": 251,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/wizard/steps/__init__.py",
+      "language": "python",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/wizard/steps/execution.py",
+      "language": "python",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/wizard/steps/llm.py",
+      "language": "python",
+      "sizeLines": 76,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/wizard/steps/search.py",
+      "language": "python",
+      "sizeLines": 66,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/wizard/ui.py",
+      "language": "python",
+      "sizeLines": 261,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/wizard/writer.py",
+      "language": "python",
+      "sizeLines": 290,
+      "fileCategory": "code"
+    },
+    {
+      "path": "SECURITY.md",
+      "language": "markdown",
+      "sizeLines": 12,
+      "fileCategory": "docs"
+    }
+  ],
+  "totalFiles": 310,
+  "filteredByIgnore": 700,
+  "estimatedComplexity": "large",
+  "importMap": {
+    ".dockerignore": [],
+    ".env.example": [],
+    ".gitattributes": [],
+    ".github/copilot-instructions.md": [],
+    ".github/ISSUE_TEMPLATE/runtime-information.yml": [],
+    ".github/workflows/backend-unit-tests.yml": [],
+    ".github/workflows/e2e-tests.yml": [],
+    ".github/workflows/frontend-unit-tests.yml": [],
+    ".github/workflows/lint-check.yml": [],
+    ".pre-commit-config.yaml": [],
+    ".understand-anything/.understandignore": [],
+    ".understand-anything/config.json": [],
+    "backend/.python-version": [],
+    "backend/AGENTS.md": [],
+    "backend/app/__init__.py": [],
+    "backend/app/channels/__init__.py": [
+      "backend/app/channels/base.py",
+      "backend/app/channels/message_bus.py"
+    ],
+    "backend/app/channels/base.py": [
+      "backend/app/channels/message_bus.py"
+    ],
+    "backend/app/channels/commands.py": [],
+    "backend/app/channels/dingtalk.py": [
+      "backend/app/channels/base.py",
+      "backend/app/channels/commands.py",
+      "backend/app/channels/message_bus.py"
+    ],
+    "backend/app/channels/discord.py": [
+      "backend/app/channels/base.py",
+      "backend/app/channels/message_bus.py"
+    ],
+    "backend/app/channels/feishu.py": [
+      "backend/app/channels/base.py",
+      "backend/app/channels/commands.py",
+      "backend/app/channels/message_bus.py"
+    ],
+    "backend/app/channels/manager.py": [
+      "backend/app/channels/commands.py",
+      "backend/app/channels/message_bus.py",
+      "backend/app/channels/store.py",
+      "backend/app/gateway/csrf_middleware.py",
+      "backend/app/gateway/internal_auth.py"
+    ],
+    "backend/app/channels/message_bus.py": [],
+    "backend/app/channels/service.py": [
+      "backend/app/channels/base.py",
+      "backend/app/channels/manager.py",
+      "backend/app/channels/message_bus.py",
+      "backend/app/channels/store.py"
+    ],
+    "backend/app/channels/slack.py": [
+      "backend/app/channels/base.py",
+      "backend/app/channels/message_bus.py"
+    ],
+    "backend/app/channels/store.py": [],
+    "backend/app/channels/telegram.py": [
+      "backend/app/channels/base.py",
+      "backend/app/channels/message_bus.py"
+    ],
+    "backend/app/channels/wechat.py": [
+      "backend/app/channels/base.py",
+      "backend/app/channels/message_bus.py"
+    ],
+    "backend/app/channels/wecom.py": [
+      "backend/app/channels/base.py",
+      "backend/app/channels/message_bus.py"
+    ],
+    "backend/app/gateway/__init__.py": [
+      "backend/app/gateway/app.py",
+      "backend/app/gateway/config.py"
+    ],
+    "backend/app/gateway/app.py": [
+      "backend/app/gateway/auth_middleware.py",
+      "backend/app/gateway/config.py",
+      "backend/app/gateway/csrf_middleware.py",
+      "backend/app/gateway/deps.py",
+      "backend/app/gateway/routers/__init__.py",
+      "backend/app/gateway/routers/agents.py",
+      "backend/app/gateway/routers/artifacts.py",
+      "backend/app/gateway/routers/assistants_compat.py",
+      "backend/app/gateway/routers/auth.py",
+      "backend/app/gateway/routers/channels.py",
+      "backend/app/gateway/routers/feedback.py",
+      "backend/app/gateway/routers/mcp.py",
+      "backend/app/gateway/routers/memory.py",
+      "backend/app/gateway/routers/models.py",
+      "backend/app/gateway/routers/runs.py",
+      "backend/app/gateway/routers/skills.py",
+      "backend/app/gateway/routers/suggestions.py",
+      "backend/app/gateway/routers/thread_runs.py",
+      "backend/app/gateway/routers/threads.py",
+      "backend/app/gateway/routers/uploads.py"
+    ],
+    "backend/app/gateway/auth_middleware.py": [
+      "backend/app/gateway/auth/errors.py",
+      "backend/app/gateway/authz.py",
+      "backend/app/gateway/internal_auth.py"
+    ],
+    "backend/app/gateway/auth/__init__.py": [
+      "backend/app/gateway/auth/config.py",
+      "backend/app/gateway/auth/errors.py",
+      "backend/app/gateway/auth/jwt.py",
+      "backend/app/gateway/auth/local_provider.py",
+      "backend/app/gateway/auth/models.py",
+      "backend/app/gateway/auth/password.py",
+      "backend/app/gateway/auth/providers.py",
+      "backend/app/gateway/auth/repositories/base.py"
+    ],
+    "backend/app/gateway/auth/config.py": [],
+    "backend/app/gateway/auth/credential_file.py": [],
+    "backend/app/gateway/auth/errors.py": [],
+    "backend/app/gateway/auth/jwt.py": [
+      "backend/app/gateway/auth/config.py",
+      "backend/app/gateway/auth/errors.py",
+      "backend/app/gateway/auth/jwt.py"
+    ],
+    "backend/app/gateway/auth/local_provider.py": [
+      "backend/app/gateway/auth/models.py",
+      "backend/app/gateway/auth/password.py",
+      "backend/app/gateway/auth/providers.py",
+      "backend/app/gateway/auth/repositories/base.py"
+    ],
+    "backend/app/gateway/auth/models.py": [],
+    "backend/app/gateway/auth/password.py": [],
+    "backend/app/gateway/auth/providers.py": [
+      "backend/app/gateway/auth/models.py"
+    ],
+    "backend/app/gateway/auth/repositories/__init__.py": [],
+    "backend/app/gateway/auth/repositories/base.py": [
+      "backend/app/gateway/auth/models.py"
+    ],
+    "backend/app/gateway/auth/repositories/sqlite.py": [
+      "backend/app/gateway/auth/models.py",
+      "backend/app/gateway/auth/repositories/base.py"
+    ],
+    "backend/app/gateway/auth/reset_admin.py": [
+      "backend/app/gateway/auth/credential_file.py",
+      "backend/app/gateway/auth/password.py",
+      "backend/app/gateway/auth/repositories/sqlite.py"
+    ],
+    "backend/app/gateway/authz.py": [],
+    "backend/app/gateway/config.py": [],
+    "backend/app/gateway/csrf_middleware.py": [],
+    "backend/app/gateway/deps.py": [],
+    "backend/app/gateway/internal_auth.py": [],
+    "backend/app/gateway/langgraph_auth.py": [
+      "backend/app/gateway/auth/errors.py",
+      "backend/app/gateway/auth/jwt.py",
+      "backend/app/gateway/deps.py"
+    ],
+    "backend/app/gateway/path_utils.py": [],
+    "backend/app/gateway/routers/__init__.py": [
+      "backend/app/gateway/routers/artifacts.py",
+      "backend/app/gateway/routers/assistants_compat.py",
+      "backend/app/gateway/routers/mcp.py",
+      "backend/app/gateway/routers/models.py",
+      "backend/app/gateway/routers/skills.py",
+      "backend/app/gateway/routers/suggestions.py",
+      "backend/app/gateway/routers/thread_runs.py",
+      "backend/app/gateway/routers/threads.py",
+      "backend/app/gateway/routers/uploads.py"
+    ],
+    "backend/app/gateway/routers/agents.py": [],
+    "backend/app/gateway/routers/artifacts.py": [
+      "backend/app/gateway/authz.py",
+      "backend/app/gateway/path_utils.py"
+    ],
+    "backend/app/gateway/routers/assistants_compat.py": [],
+    "backend/app/gateway/routers/auth.py": [
+      "backend/app/gateway/auth/__init__.py",
+      "backend/app/gateway/auth/config.py",
+      "backend/app/gateway/auth/errors.py",
+      "backend/app/gateway/csrf_middleware.py",
+      "backend/app/gateway/deps.py"
+    ],
+    "backend/app/gateway/routers/channels.py": [],
+    "backend/app/gateway/routers/feedback.py": [
+      "backend/app/gateway/authz.py",
+      "backend/app/gateway/deps.py"
+    ],
+    "backend/app/gateway/routers/mcp.py": [],
+    "backend/app/gateway/routers/memory.py": [],
+    "backend/app/gateway/routers/models.py": [
+      "backend/app/gateway/deps.py"
+    ],
+    "backend/app/gateway/routers/runs.py": [
+      "backend/app/gateway/authz.py",
+      "backend/app/gateway/deps.py",
+      "backend/app/gateway/routers/thread_runs.py",
+      "backend/app/gateway/services.py"
+    ],
+    "backend/app/gateway/routers/skills.py": [
+      "backend/app/gateway/deps.py",
+      "backend/app/gateway/path_utils.py"
+    ],
+    "backend/app/gateway/routers/suggestions.py": [
+      "backend/app/gateway/authz.py",
+      "backend/app/gateway/deps.py"
+    ],
+    "backend/app/gateway/routers/thread_runs.py": [
+      "backend/app/gateway/authz.py",
+      "backend/app/gateway/deps.py",
+      "backend/app/gateway/services.py"
+    ],
+    "backend/app/gateway/routers/threads.py": [
+      "backend/app/gateway/authz.py",
+      "backend/app/gateway/deps.py",
+      "backend/app/gateway/utils.py"
+    ],
+    "backend/app/gateway/routers/uploads.py": [
+      "backend/app/gateway/authz.py",
+      "backend/app/gateway/deps.py"
+    ],
+    "backend/app/gateway/services.py": [
+      "backend/app/gateway/deps.py",
+      "backend/app/gateway/utils.py"
+    ],
+    "backend/app/gateway/utils.py": [],
+    "backend/CLAUDE.md": [],
+    "backend/CONTRIBUTING.md": [],
+    "backend/debug.py": [],
+    "backend/Dockerfile": [],
+    "backend/langgraph.json": [],
+    "backend/Makefile": [],
+    "backend/packages/harness/deerflow/__init__.py": [],
+    "backend/packages/harness/deerflow/agents/__init__.py": [
+      "backend/packages/harness/deerflow/agents/factory.py",
+      "backend/packages/harness/deerflow/agents/features.py",
+      "backend/packages/harness/deerflow/agents/lead_agent/__init__.py",
+      "backend/packages/harness/deerflow/agents/lead_agent/prompt.py",
+      "backend/packages/harness/deerflow/agents/thread_state.py"
+    ],
+    "backend/packages/harness/deerflow/agents/factory.py": [
+      "backend/packages/harness/deerflow/agents/features.py",
+      "backend/packages/harness/deerflow/agents/middlewares/clarification_middleware.py",
+      "backend/packages/harness/deerflow/agents/middlewares/dangling_tool_call_middleware.py",
+      "backend/packages/harness/deerflow/agents/middlewares/tool_error_handling_middleware.py",
+      "backend/packages/harness/deerflow/agents/thread_state.py",
+      "backend/packages/harness/deerflow/tools/builtins/__init__.py"
+    ],
+    "backend/packages/harness/deerflow/agents/features.py": [],
+    "backend/packages/harness/deerflow/agents/lead_agent/__init__.py": [
+      "backend/packages/harness/deerflow/agents/lead_agent/agent.py"
+    ],
+    "backend/packages/harness/deerflow/agents/lead_agent/agent.py": [
+      "backend/packages/harness/deerflow/agents/lead_agent/prompt.py",
+      "backend/packages/harness/deerflow/agents/memory/summarization_hook.py",
+      "backend/packages/harness/deerflow/agents/middlewares/clarification_middleware.py",
+      "backend/packages/harness/deerflow/agents/middlewares/loop_detection_middleware.py",
+      "backend/packages/harness/deerflow/agents/middlewares/memory_middleware.py",
+      "backend/packages/harness/deerflow/agents/middlewares/subagent_limit_middleware.py",
+      "backend/packages/harness/deerflow/agents/middlewares/summarization_middleware.py",
+      "backend/packages/harness/deerflow/agents/middlewares/title_middleware.py",
+      "backend/packages/harness/deerflow/agents/middlewares/todo_middleware.py",
+      "backend/packages/harness/deerflow/agents/middlewares/token_usage_middleware.py",
+      "backend/packages/harness/deerflow/agents/middlewares/tool_error_handling_middleware.py",
+      "backend/packages/harness/deerflow/agents/middlewares/view_image_middleware.py",
+      "backend/packages/harness/deerflow/agents/thread_state.py",
+      "backend/packages/harness/deerflow/config/agents_config.py",
+      "backend/packages/harness/deerflow/config/app_config.py",
+      "backend/packages/harness/deerflow/models/__init__.py"
+    ],
+    "backend/packages/harness/deerflow/agents/lead_agent/prompt.py": [
+      "backend/packages/harness/deerflow/config/agents_config.py",
+      "backend/packages/harness/deerflow/subagents/__init__.py"
+    ],
+    "backend/packages/harness/deerflow/agents/memory/__init__.py": [
+      "backend/packages/harness/deerflow/agents/memory/prompt.py",
+      "backend/packages/harness/deerflow/agents/memory/queue.py",
+      "backend/packages/harness/deerflow/agents/memory/storage.py",
+      "backend/packages/harness/deerflow/agents/memory/updater.py"
+    ],
+    "backend/packages/harness/deerflow/agents/memory/message_processing.py": [],
+    "backend/packages/harness/deerflow/agents/memory/prompt.py": [],
+    "backend/packages/harness/deerflow/agents/memory/queue.py": [
+      "backend/packages/harness/deerflow/config/memory_config.py"
+    ],
+    "backend/packages/harness/deerflow/agents/memory/storage.py": [
+      "backend/packages/harness/deerflow/config/agents_config.py",
+      "backend/packages/harness/deerflow/config/memory_config.py",
+      "backend/packages/harness/deerflow/config/paths.py"
+    ],
+    "backend/packages/harness/deerflow/agents/memory/summarization_hook.py": [
+      "backend/packages/harness/deerflow/agents/memory/message_processing.py",
+      "backend/packages/harness/deerflow/agents/memory/queue.py",
+      "backend/packages/harness/deerflow/agents/middlewares/summarization_middleware.py",
+      "backend/packages/harness/deerflow/config/memory_config.py"
+    ],
+    "backend/packages/harness/deerflow/agents/memory/updater.py": [
+      "backend/packages/harness/deerflow/agents/memory/prompt.py",
+      "backend/packages/harness/deerflow/agents/memory/storage.py",
+      "backend/packages/harness/deerflow/config/memory_config.py",
+      "backend/packages/harness/deerflow/models/__init__.py"
+    ],
+    "backend/packages/harness/deerflow/agents/middlewares/__init__.py": [],
+    "backend/packages/harness/deerflow/agents/middlewares/clarification_middleware.py": [],
+    "backend/packages/harness/deerflow/agents/middlewares/dangling_tool_call_middleware.py": [],
+    "backend/packages/harness/deerflow/agents/middlewares/deferred_tool_filter_middleware.py": [],
+    "backend/packages/harness/deerflow/agents/middlewares/llm_error_handling_middleware.py": [
+      "backend/packages/harness/deerflow/config/app_config.py"
+    ],
+    "backend/packages/harness/deerflow/agents/middlewares/loop_detection_middleware.py": [],
+    "backend/packages/harness/deerflow/agents/middlewares/memory_middleware.py": [
+      "backend/packages/harness/deerflow/agents/memory/message_processing.py",
+      "backend/packages/harness/deerflow/agents/memory/queue.py",
+      "backend/packages/harness/deerflow/config/memory_config.py",
+      "backend/packages/harness/deerflow/runtime/user_context.py"
+    ],
+    "backend/packages/harness/deerflow/agents/middlewares/sandbox_audit_middleware.py": [
+      "backend/packages/harness/deerflow/agents/thread_state.py"
+    ],
+    "backend/packages/harness/deerflow/agents/middlewares/subagent_limit_middleware.py": [
+      "backend/packages/harness/deerflow/subagents/executor.py"
+    ],
+    "backend/packages/harness/deerflow/agents/middlewares/summarization_middleware.py": [],
+    "backend/packages/harness/deerflow/agents/middlewares/thread_data_middleware.py": [
+      "backend/packages/harness/deerflow/agents/thread_state.py",
+      "backend/packages/harness/deerflow/config/paths.py",
+      "backend/packages/harness/deerflow/runtime/user_context.py"
+    ],
+    "backend/packages/harness/deerflow/agents/middlewares/title_middleware.py": [
+      "backend/packages/harness/deerflow/config/title_config.py",
+      "backend/packages/harness/deerflow/models/__init__.py"
+    ],
+    "backend/packages/harness/deerflow/agents/middlewares/todo_middleware.py": [],
+    "backend/packages/harness/deerflow/agents/middlewares/token_usage_middleware.py": [],
+    "backend/packages/harness/deerflow/agents/middlewares/tool_error_handling_middleware.py": [
+      "backend/packages/harness/deerflow/config/app_config.py"
+    ],
+    "backend/packages/harness/deerflow/agents/middlewares/uploads_middleware.py": [
+      "backend/packages/harness/deerflow/config/paths.py",
+      "backend/packages/harness/deerflow/runtime/user_context.py",
+      "backend/packages/harness/deerflow/utils/file_conversion.py"
+    ],
+    "backend/packages/harness/deerflow/agents/middlewares/view_image_middleware.py": [
+      "backend/packages/harness/deerflow/agents/thread_state.py"
+    ],
+    "backend/packages/harness/deerflow/agents/thread_state.py": [],
+    "backend/packages/harness/deerflow/client.py": [
+      "backend/packages/harness/deerflow/agents/lead_agent/agent.py",
+      "backend/packages/harness/deerflow/agents/lead_agent/prompt.py",
+      "backend/packages/harness/deerflow/agents/thread_state.py",
+      "backend/packages/harness/deerflow/config/agents_config.py",
+      "backend/packages/harness/deerflow/config/app_config.py",
+      "backend/packages/harness/deerflow/config/extensions_config.py",
+      "backend/packages/harness/deerflow/config/paths.py",
+      "backend/packages/harness/deerflow/models/__init__.py",
+      "backend/packages/harness/deerflow/runtime/user_context.py",
+      "backend/packages/harness/deerflow/uploads/manager.py"
+    ],
+    "backend/packages/harness/deerflow/community/aio_sandbox/__init__.py": [
+      "backend/packages/harness/deerflow/community/aio_sandbox/aio_sandbox_provider.py",
+      "backend/packages/harness/deerflow/community/aio_sandbox/aio_sandbox.py",
+      "backend/packages/harness/deerflow/community/aio_sandbox/backend.py",
+      "backend/packages/harness/deerflow/community/aio_sandbox/local_backend.py",
+      "backend/packages/harness/deerflow/community/aio_sandbox/remote_backend.py",
+      "backend/packages/harness/deerflow/community/aio_sandbox/sandbox_info.py"
+    ],
+    "backend/packages/harness/deerflow/community/aio_sandbox/aio_sandbox_provider.py": [
+      "backend/packages/harness/deerflow/community/aio_sandbox/aio_sandbox.py",
+      "backend/packages/harness/deerflow/community/aio_sandbox/backend.py",
+      "backend/packages/harness/deerflow/community/aio_sandbox/local_backend.py",
+      "backend/packages/harness/deerflow/community/aio_sandbox/remote_backend.py",
+      "backend/packages/harness/deerflow/community/aio_sandbox/sandbox_info.py",
+      "backend/packages/harness/deerflow/config/__init__.py",
+      "backend/packages/harness/deerflow/config/paths.py",
+      "backend/packages/harness/deerflow/runtime/user_context.py",
+      "backend/packages/harness/deerflow/sandbox/sandbox_provider.py",
+      "backend/packages/harness/deerflow/sandbox/sandbox.py"
+    ],
+    "backend/packages/harness/deerflow/community/aio_sandbox/aio_sandbox.py": [
+      "backend/packages/harness/deerflow/sandbox/sandbox.py",
+      "backend/packages/harness/deerflow/sandbox/search.py"
+    ],
+    "backend/packages/harness/deerflow/community/aio_sandbox/backend.py": [
+      "backend/packages/harness/deerflow/community/aio_sandbox/sandbox_info.py"
+    ],
+    "backend/packages/harness/deerflow/community/aio_sandbox/local_backend.py": [
+      "backend/packages/harness/deerflow/community/aio_sandbox/backend.py",
+      "backend/packages/harness/deerflow/community/aio_sandbox/sandbox_info.py",
+      "backend/packages/harness/deerflow/utils/network.py"
+    ],
+    "backend/packages/harness/deerflow/community/aio_sandbox/remote_backend.py": [
+      "backend/packages/harness/deerflow/community/aio_sandbox/backend.py",
+      "backend/packages/harness/deerflow/community/aio_sandbox/sandbox_info.py"
+    ],
+    "backend/packages/harness/deerflow/community/aio_sandbox/sandbox_info.py": [],
+    "backend/packages/harness/deerflow/community/ddg_search/__init__.py": [
+      "backend/packages/harness/deerflow/community/ddg_search/tools.py"
+    ],
+    "backend/packages/harness/deerflow/community/ddg_search/tools.py": [
+      "backend/packages/harness/deerflow/config/__init__.py"
+    ],
+    "backend/packages/harness/deerflow/community/exa/tools.py": [
+      "backend/packages/harness/deerflow/config/__init__.py"
+    ],
+    "backend/packages/harness/deerflow/community/firecrawl/tools.py": [
+      "backend/packages/harness/deerflow/config/__init__.py"
+    ],
+    "backend/packages/harness/deerflow/community/image_search/__init__.py": [
+      "backend/packages/harness/deerflow/community/image_search/tools.py"
+    ],
+    "backend/packages/harness/deerflow/community/image_search/tools.py": [
+      "backend/packages/harness/deerflow/config/__init__.py"
+    ],
+    "backend/packages/harness/deerflow/community/infoquest/infoquest_client.py": [],
+    "backend/packages/harness/deerflow/community/infoquest/tools.py": [
+      "backend/packages/harness/deerflow/community/infoquest/infoquest_client.py",
+      "backend/packages/harness/deerflow/config/__init__.py",
+      "backend/packages/harness/deerflow/utils/readability.py"
+    ],
+    "backend/packages/harness/deerflow/community/jina_ai/jina_client.py": [],
+    "backend/packages/harness/deerflow/community/jina_ai/tools.py": [
+      "backend/packages/harness/deerflow/community/jina_ai/jina_client.py",
+      "backend/packages/harness/deerflow/config/__init__.py",
+      "backend/packages/harness/deerflow/utils/readability.py"
+    ],
+    "backend/packages/harness/deerflow/community/tavily/tools.py": [
+      "backend/packages/harness/deerflow/config/__init__.py"
+    ],
+    "backend/packages/harness/deerflow/config/__init__.py": [
+      "backend/packages/harness/deerflow/config/app_config.py",
+      "backend/packages/harness/deerflow/config/extensions_config.py",
+      "backend/packages/harness/deerflow/config/memory_config.py",
+      "backend/packages/harness/deerflow/config/paths.py",
+      "backend/packages/harness/deerflow/config/skill_evolution_config.py",
+      "backend/packages/harness/deerflow/config/skills_config.py",
+      "backend/packages/harness/deerflow/config/tracing_config.py"
+    ],
+    "backend/packages/harness/deerflow/config/acp_config.py": [],
+    "backend/packages/harness/deerflow/config/agents_api_config.py": [],
+    "backend/packages/harness/deerflow/config/agents_config.py": [
+      "backend/packages/harness/deerflow/config/paths.py"
+    ],
+    "backend/packages/harness/deerflow/config/app_config.py": [
+      "backend/packages/harness/deerflow/config/acp_config.py",
+      "backend/packages/harness/deerflow/config/agents_api_config.py",
+      "backend/packages/harness/deerflow/config/checkpointer_config.py",
+      "backend/packages/harness/deerflow/config/database_config.py",
+      "backend/packages/harness/deerflow/config/extensions_config.py",
+      "backend/packages/harness/deerflow/config/guardrails_config.py",
+      "backend/packages/harness/deerflow/config/memory_config.py",
+      "backend/packages/harness/deerflow/config/model_config.py",
+      "backend/packages/harness/deerflow/config/run_events_config.py",
+      "backend/packages/harness/deerflow/config/runtime_paths.py",
+      "backend/packages/harness/deerflow/config/sandbox_config.py",
+      "backend/packages/harness/deerflow/config/skill_evolution_config.py",
+      "backend/packages/harness/deerflow/config/skills_config.py",
+      "backend/packages/harness/deerflow/config/stream_bridge_config.py",
+      "backend/packages/harness/deerflow/config/subagents_config.py",
+      "backend/packages/harness/deerflow/config/summarization_config.py",
+      "backend/packages/harness/deerflow/config/title_config.py",
+      "backend/packages/harness/deerflow/config/token_usage_config.py",
+      "backend/packages/harness/deerflow/config/tool_config.py",
+      "backend/packages/harness/deerflow/config/tool_search_config.py"
+    ],
+    "backend/packages/harness/deerflow/config/checkpointer_config.py": [],
+    "backend/packages/harness/deerflow/config/database_config.py": [],
+    "backend/packages/harness/deerflow/config/extensions_config.py": [
+      "backend/packages/harness/deerflow/config/runtime_paths.py"
+    ],
+    "backend/packages/harness/deerflow/config/guardrails_config.py": [],
+    "backend/packages/harness/deerflow/config/memory_config.py": [],
+    "backend/packages/harness/deerflow/config/model_config.py": [],
+    "backend/packages/harness/deerflow/config/paths.py": [
+      "backend/packages/harness/deerflow/config/runtime_paths.py"
+    ],
+    "backend/packages/harness/deerflow/config/run_events_config.py": [],
+    "backend/packages/harness/deerflow/config/runtime_paths.py": [],
+    "backend/packages/harness/deerflow/config/sandbox_config.py": [],
+    "backend/packages/harness/deerflow/config/skill_evolution_config.py": [],
+    "backend/packages/harness/deerflow/config/skills_config.py": [
+      "backend/packages/harness/deerflow/config/runtime_paths.py"
+    ],
+    "backend/packages/harness/deerflow/config/stream_bridge_config.py": [],
+    "backend/packages/harness/deerflow/config/subagents_config.py": [],
+    "backend/packages/harness/deerflow/config/summarization_config.py": [],
+    "backend/packages/harness/deerflow/config/title_config.py": [],
+    "backend/packages/harness/deerflow/config/token_usage_config.py": [],
+    "backend/packages/harness/deerflow/config/tool_config.py": [],
+    "backend/packages/harness/deerflow/config/tool_search_config.py": [],
+    "backend/packages/harness/deerflow/config/tracing_config.py": [],
+    "backend/packages/harness/deerflow/guardrails/__init__.py": [
+      "backend/packages/harness/deerflow/guardrails/builtin.py",
+      "backend/packages/harness/deerflow/guardrails/middleware.py",
+      "backend/packages/harness/deerflow/guardrails/provider.py"
+    ],
+    "backend/packages/harness/deerflow/guardrails/builtin.py": [
+      "backend/packages/harness/deerflow/guardrails/provider.py"
+    ],
+    "backend/packages/harness/deerflow/guardrails/middleware.py": [
+      "backend/packages/harness/deerflow/guardrails/provider.py"
+    ],
+    "backend/packages/harness/deerflow/guardrails/provider.py": [],
+    "backend/packages/harness/deerflow/mcp/__init__.py": [
+      "backend/packages/harness/deerflow/mcp/cache.py",
+      "backend/packages/harness/deerflow/mcp/client.py",
+      "backend/packages/harness/deerflow/mcp/tools.py"
+    ],
+    "backend/packages/harness/deerflow/mcp/cache.py": [],
+    "backend/packages/harness/deerflow/mcp/client.py": [
+      "backend/packages/harness/deerflow/config/extensions_config.py"
+    ],
+    "backend/packages/harness/deerflow/mcp/oauth.py": [
+      "backend/packages/harness/deerflow/config/extensions_config.py"
+    ],
+    "backend/packages/harness/deerflow/mcp/tools.py": [
+      "backend/packages/harness/deerflow/config/extensions_config.py",
+      "backend/packages/harness/deerflow/mcp/client.py",
+      "backend/packages/harness/deerflow/mcp/oauth.py",
+      "backend/packages/harness/deerflow/reflection/__init__.py"
+    ],
+    "backend/packages/harness/deerflow/models/__init__.py": [
+      "backend/packages/harness/deerflow/models/factory.py"
+    ],
+    "backend/packages/harness/deerflow/models/claude_provider.py": [],
+    "backend/packages/harness/deerflow/models/credential_loader.py": [],
+    "backend/packages/harness/deerflow/models/factory.py": [
+      "backend/packages/harness/deerflow/config/__init__.py",
+      "backend/packages/harness/deerflow/config/app_config.py",
+      "backend/packages/harness/deerflow/reflection/__init__.py",
+      "backend/packages/harness/deerflow/tracing/__init__.py"
+    ],
+    "backend/packages/harness/deerflow/models/mindie_provider.py": [],
+    "backend/packages/harness/deerflow/models/openai_codex_provider.py": [
+      "backend/packages/harness/deerflow/models/credential_loader.py"
+    ],
+    "backend/packages/harness/deerflow/models/patched_deepseek.py": [],
+    "backend/packages/harness/deerflow/models/patched_minimax.py": [],
+    "backend/packages/harness/deerflow/models/patched_openai.py": [],
+    "backend/packages/harness/deerflow/models/vllm_provider.py": [],
+    "backend/packages/harness/deerflow/persistence/__init__.py": [
+      "backend/packages/harness/deerflow/persistence/engine.py"
+    ],
+    "backend/packages/harness/deerflow/persistence/base.py": [],
+    "backend/packages/harness/deerflow/persistence/engine.py": [],
+    "backend/packages/harness/deerflow/persistence/feedback/__init__.py": [
+      "backend/packages/harness/deerflow/persistence/feedback/model.py",
+      "backend/packages/harness/deerflow/persistence/feedback/sql.py"
+    ],
+    "backend/packages/harness/deerflow/persistence/feedback/model.py": [
+      "backend/packages/harness/deerflow/persistence/base.py"
+    ],
+    "backend/packages/harness/deerflow/persistence/feedback/sql.py": [
+      "backend/packages/harness/deerflow/persistence/feedback/model.py",
+      "backend/packages/harness/deerflow/runtime/user_context.py"
+    ],
+    "backend/packages/harness/deerflow/persistence/migrations/alembic.ini": [],
+    "backend/packages/harness/deerflow/persistence/migrations/env.py": [
+      "backend/packages/harness/deerflow/persistence/base.py"
+    ],
+    "backend/packages/harness/deerflow/persistence/migrations/versions/.gitkeep": [],
+    "backend/packages/harness/deerflow/persistence/models/__init__.py": [
+      "backend/packages/harness/deerflow/persistence/feedback/model.py",
+      "backend/packages/harness/deerflow/persistence/models/run_event.py",
+      "backend/packages/harness/deerflow/persistence/run/model.py",
+      "backend/packages/harness/deerflow/persistence/thread_meta/model.py",
+      "backend/packages/harness/deerflow/persistence/user/model.py"
+    ],
+    "backend/packages/harness/deerflow/persistence/models/run_event.py": [
+      "backend/packages/harness/deerflow/persistence/base.py"
+    ],
+    "backend/packages/harness/deerflow/persistence/run/__init__.py": [
+      "backend/packages/harness/deerflow/persistence/run/model.py",
+      "backend/packages/harness/deerflow/persistence/run/sql.py"
+    ],
+    "backend/packages/harness/deerflow/persistence/run/model.py": [
+      "backend/packages/harness/deerflow/persistence/base.py"
+    ],
+    "backend/packages/harness/deerflow/persistence/run/sql.py": [
+      "backend/packages/harness/deerflow/persistence/run/model.py",
+      "backend/packages/harness/deerflow/runtime/runs/store/base.py",
+      "backend/packages/harness/deerflow/runtime/user_context.py"
+    ],
+    "backend/packages/harness/deerflow/persistence/thread_meta/__init__.py": [
+      "backend/packages/harness/deerflow/persistence/thread_meta/base.py",
+      "backend/packages/harness/deerflow/persistence/thread_meta/memory.py",
+      "backend/packages/harness/deerflow/persistence/thread_meta/model.py",
+      "backend/packages/harness/deerflow/persistence/thread_meta/sql.py"
+    ],
+    "backend/packages/harness/deerflow/persistence/thread_meta/base.py": [
+      "backend/packages/harness/deerflow/runtime/user_context.py"
+    ],
+    "backend/packages/harness/deerflow/persistence/thread_meta/memory.py": [
+      "backend/packages/harness/deerflow/persistence/thread_meta/base.py",
+      "backend/packages/harness/deerflow/runtime/user_context.py"
+    ],
+    "backend/packages/harness/deerflow/persistence/thread_meta/model.py": [
+      "backend/packages/harness/deerflow/persistence/base.py"
+    ],
+    "backend/packages/harness/deerflow/persistence/thread_meta/sql.py": [
+      "backend/packages/harness/deerflow/persistence/thread_meta/base.py",
+      "backend/packages/harness/deerflow/persistence/thread_meta/model.py",
+      "backend/packages/harness/deerflow/runtime/user_context.py"
+    ],
+    "backend/packages/harness/deerflow/persistence/user/__init__.py": [
+      "backend/packages/harness/deerflow/persistence/user/model.py"
+    ],
+    "backend/packages/harness/deerflow/persistence/user/model.py": [
+      "backend/packages/harness/deerflow/persistence/base.py"
+    ],
+    "backend/packages/harness/deerflow/reflection/__init__.py": [
+      "backend/packages/harness/deerflow/reflection/resolvers.py"
+    ],
+    "backend/packages/harness/deerflow/reflection/resolvers.py": [],
+    "backend/packages/harness/deerflow/runtime/__init__.py": [
+      "backend/packages/harness/deerflow/runtime/checkpointer/__init__.py",
+      "backend/packages/harness/deerflow/runtime/runs/__init__.py",
+      "backend/packages/harness/deerflow/runtime/serialization.py",
+      "backend/packages/harness/deerflow/runtime/store/__init__.py",
+      "backend/packages/harness/deerflow/runtime/stream_bridge/__init__.py"
+    ],
+    "backend/packages/harness/deerflow/runtime/checkpointer/__init__.py": [
+      "backend/packages/harness/deerflow/runtime/checkpointer/async_provider.py",
+      "backend/packages/harness/deerflow/runtime/checkpointer/provider.py"
+    ],
+    "backend/packages/harness/deerflow/runtime/checkpointer/async_provider.py": [
+      "backend/packages/harness/deerflow/config/app_config.py",
+      "backend/packages/harness/deerflow/runtime/checkpointer/provider.py",
+      "backend/packages/harness/deerflow/runtime/store/_sqlite_utils.py"
+    ],
+    "backend/packages/harness/deerflow/runtime/checkpointer/provider.py": [
+      "backend/packages/harness/deerflow/config/app_config.py",
+      "backend/packages/harness/deerflow/config/checkpointer_config.py",
+      "backend/packages/harness/deerflow/runtime/store/_sqlite_utils.py"
+    ],
+    "backend/packages/harness/deerflow/runtime/converters.py": [],
+    "backend/packages/harness/deerflow/runtime/events/__init__.py": [
+      "backend/packages/harness/deerflow/runtime/events/store/base.py",
+      "backend/packages/harness/deerflow/runtime/events/store/memory.py"
+    ],
+    "backend/packages/harness/deerflow/runtime/events/store/__init__.py": [
+      "backend/packages/harness/deerflow/runtime/events/store/base.py",
+      "backend/packages/harness/deerflow/runtime/events/store/memory.py"
+    ],
+    "backend/packages/harness/deerflow/runtime/events/store/base.py": [],
+    "backend/packages/harness/deerflow/runtime/events/store/db.py": [
+      "backend/packages/harness/deerflow/persistence/models/run_event.py",
+      "backend/packages/harness/deerflow/runtime/events/store/base.py",
+      "backend/packages/harness/deerflow/runtime/user_context.py"
+    ],
+    "backend/packages/harness/deerflow/runtime/events/store/jsonl.py": [
+      "backend/packages/harness/deerflow/runtime/events/store/base.py"
+    ],
+    "backend/packages/harness/deerflow/runtime/events/store/memory.py": [
+      "backend/packages/harness/deerflow/runtime/events/store/base.py"
+    ],
+    "backend/packages/harness/deerflow/runtime/journal.py": [],
+    "backend/packages/harness/deerflow/runtime/runs/__init__.py": [
+      "backend/packages/harness/deerflow/runtime/runs/manager.py",
+      "backend/packages/harness/deerflow/runtime/runs/schemas.py",
+      "backend/packages/harness/deerflow/runtime/runs/worker.py"
+    ],
+    "backend/packages/harness/deerflow/runtime/runs/manager.py": [
+      "backend/packages/harness/deerflow/runtime/runs/schemas.py"
+    ],
+    "backend/packages/harness/deerflow/runtime/runs/schemas.py": [],
+    "backend/packages/harness/deerflow/runtime/runs/store/__init__.py": [
+      "backend/packages/harness/deerflow/runtime/runs/store/base.py",
+      "backend/packages/harness/deerflow/runtime/runs/store/memory.py"
+    ],
+    "backend/packages/harness/deerflow/runtime/runs/store/base.py": [],
+    "backend/packages/harness/deerflow/runtime/runs/store/memory.py": [
+      "backend/packages/harness/deerflow/runtime/runs/store/base.py"
+    ],
+    "backend/packages/harness/deerflow/runtime/runs/worker.py": [
+      "backend/packages/harness/deerflow/config/app_config.py",
+      "backend/packages/harness/deerflow/runtime/runs/manager.py",
+      "backend/packages/harness/deerflow/runtime/runs/schemas.py",
+      "backend/packages/harness/deerflow/runtime/serialization.py",
+      "backend/packages/harness/deerflow/runtime/stream_bridge/__init__.py"
+    ],
+    "backend/packages/harness/deerflow/runtime/serialization.py": [],
+    "backend/packages/harness/deerflow/runtime/store/__init__.py": [
+      "backend/packages/harness/deerflow/runtime/store/async_provider.py",
+      "backend/packages/harness/deerflow/runtime/store/provider.py"
+    ],
+    "backend/packages/harness/deerflow/runtime/store/_sqlite_utils.py": [
+      "backend/packages/harness/deerflow/config/paths.py"
+    ],
+    "backend/packages/harness/deerflow/runtime/store/async_provider.py": [
+      "backend/packages/harness/deerflow/config/app_config.py",
+      "backend/packages/harness/deerflow/runtime/store/provider.py"
+    ],
+    "backend/packages/harness/deerflow/runtime/store/provider.py": [
+      "backend/packages/harness/deerflow/config/app_config.py",
+      "backend/packages/harness/deerflow/runtime/store/_sqlite_utils.py"
+    ],
+    "backend/packages/harness/deerflow/runtime/stream_bridge/__init__.py": [
+      "backend/packages/harness/deerflow/runtime/stream_bridge/async_provider.py",
+      "backend/packages/harness/deerflow/runtime/stream_bridge/base.py",
+      "backend/packages/harness/deerflow/runtime/stream_bridge/memory.py"
+    ],
+    "backend/packages/harness/deerflow/runtime/stream_bridge/async_provider.py": [
+      "backend/packages/harness/deerflow/config/app_config.py",
+      "backend/packages/harness/deerflow/config/stream_bridge_config.py",
+      "backend/packages/harness/deerflow/runtime/stream_bridge/base.py"
+    ],
+    "backend/packages/harness/deerflow/runtime/stream_bridge/base.py": [],
+    "backend/packages/harness/deerflow/runtime/stream_bridge/memory.py": [
+      "backend/packages/harness/deerflow/runtime/stream_bridge/base.py"
+    ],
+    "backend/packages/harness/deerflow/runtime/user_context.py": [],
+    "backend/packages/harness/deerflow/sandbox/__init__.py": [
+      "backend/packages/harness/deerflow/sandbox/sandbox_provider.py",
+      "backend/packages/harness/deerflow/sandbox/sandbox.py"
+    ],
+    "backend/packages/harness/deerflow/sandbox/exceptions.py": [],
+    "backend/packages/harness/deerflow/sandbox/file_operation_lock.py": [
+      "backend/packages/harness/deerflow/sandbox/sandbox.py"
+    ],
+    "backend/packages/harness/deerflow/sandbox/local/__init__.py": [
+      "backend/packages/harness/deerflow/sandbox/local/local_sandbox_provider.py"
+    ],
+    "backend/packages/harness/deerflow/sandbox/local/list_dir.py": [
+      "backend/packages/harness/deerflow/sandbox/search.py"
+    ],
+    "backend/packages/harness/deerflow/sandbox/local/local_sandbox_provider.py": [
+      "backend/packages/harness/deerflow/sandbox/local/local_sandbox.py",
+      "backend/packages/harness/deerflow/sandbox/sandbox_provider.py",
+      "backend/packages/harness/deerflow/sandbox/sandbox.py"
+    ],
+    "backend/packages/harness/deerflow/sandbox/local/local_sandbox.py": [
+      "backend/packages/harness/deerflow/sandbox/local/list_dir.py",
+      "backend/packages/harness/deerflow/sandbox/sandbox.py",
+      "backend/packages/harness/deerflow/sandbox/search.py"
+    ],
+    "backend/packages/harness/deerflow/sandbox/middleware.py": [
+      "backend/packages/harness/deerflow/agents/thread_state.py",
+      "backend/packages/harness/deerflow/sandbox/__init__.py"
+    ],
+    "backend/packages/harness/deerflow/sandbox/sandbox_provider.py": [
+      "backend/packages/harness/deerflow/config/__init__.py",
+      "backend/packages/harness/deerflow/reflection/__init__.py",
+      "backend/packages/harness/deerflow/sandbox/sandbox.py"
+    ],
+    "backend/packages/harness/deerflow/sandbox/sandbox.py": [
+      "backend/packages/harness/deerflow/sandbox/search.py"
+    ],
+    "backend/packages/harness/deerflow/sandbox/search.py": [],
+    "backend/packages/harness/deerflow/sandbox/security.py": [
+      "backend/packages/harness/deerflow/config/__init__.py"
+    ],
+    "backend/packages/harness/deerflow/sandbox/tools.py": [
+      "backend/packages/harness/deerflow/agents/thread_state.py",
+      "backend/packages/harness/deerflow/config/__init__.py",
+      "backend/packages/harness/deerflow/config/paths.py",
+      "backend/packages/harness/deerflow/sandbox/exceptions.py",
+      "backend/packages/harness/deerflow/sandbox/file_operation_lock.py",
+      "backend/packages/harness/deerflow/sandbox/sandbox_provider.py",
+      "backend/packages/harness/deerflow/sandbox/sandbox.py",
+      "backend/packages/harness/deerflow/sandbox/search.py",
+      "backend/packages/harness/deerflow/sandbox/security.py"
+    ],
+    "backend/packages/harness/deerflow/subagents/__init__.py": [
+      "backend/packages/harness/deerflow/subagents/config.py",
+      "backend/packages/harness/deerflow/subagents/executor.py",
+      "backend/packages/harness/deerflow/subagents/registry.py"
+    ],
+    "backend/packages/harness/deerflow/subagents/builtins/__init__.py": [
+      "backend/packages/harness/deerflow/subagents/builtins/bash_agent.py",
+      "backend/packages/harness/deerflow/subagents/builtins/general_purpose.py"
+    ],
+    "backend/packages/harness/deerflow/subagents/builtins/bash_agent.py": [
+      "backend/packages/harness/deerflow/subagents/config.py"
+    ],
+    "backend/packages/harness/deerflow/subagents/builtins/general_purpose.py": [
+      "backend/packages/harness/deerflow/subagents/config.py"
+    ],
+    "backend/packages/harness/deerflow/subagents/config.py": [],
+    "backend/packages/harness/deerflow/subagents/executor.py": [
+      "backend/packages/harness/deerflow/agents/thread_state.py",
+      "backend/packages/harness/deerflow/config/__init__.py",
+      "backend/packages/harness/deerflow/config/app_config.py",
+      "backend/packages/harness/deerflow/models/__init__.py",
+      "backend/packages/harness/deerflow/subagents/config.py"
+    ],
+    "backend/packages/harness/deerflow/subagents/registry.py": [
+      "backend/packages/harness/deerflow/sandbox/security.py",
+      "backend/packages/harness/deerflow/subagents/builtins/__init__.py",
+      "backend/packages/harness/deerflow/subagents/config.py"
+    ],
+    "backend/packages/harness/deerflow/tools/__init__.py": [
+      "backend/packages/harness/deerflow/tools/tools.py"
+    ],
+    "backend/packages/harness/deerflow/tools/builtins/__init__.py": [
+      "backend/packages/harness/deerflow/tools/builtins/clarification_tool.py",
+      "backend/packages/harness/deerflow/tools/builtins/present_file_tool.py",
+      "backend/packages/harness/deerflow/tools/builtins/setup_agent_tool.py",
+      "backend/packages/harness/deerflow/tools/builtins/task_tool.py",
+      "backend/packages/harness/deerflow/tools/builtins/view_image_tool.py"
+    ],
+    "backend/packages/harness/deerflow/tools/builtins/clarification_tool.py": [],
+    "backend/packages/harness/deerflow/tools/builtins/invoke_acp_agent_tool.py": [],
+    "backend/packages/harness/deerflow/tools/builtins/present_file_tool.py": [
+      "backend/packages/harness/deerflow/agents/thread_state.py",
+      "backend/packages/harness/deerflow/config/paths.py",
+      "backend/packages/harness/deerflow/runtime/user_context.py"
+    ],
+    "backend/packages/harness/deerflow/tools/builtins/setup_agent_tool.py": [
+      "backend/packages/harness/deerflow/config/agents_config.py",
+      "backend/packages/harness/deerflow/config/paths.py"
+    ],
+    "backend/packages/harness/deerflow/tools/builtins/task_tool.py": [
+      "backend/packages/harness/deerflow/agents/thread_state.py",
+      "backend/packages/harness/deerflow/config/__init__.py",
+      "backend/packages/harness/deerflow/sandbox/security.py",
+      "backend/packages/harness/deerflow/subagents/__init__.py",
+      "backend/packages/harness/deerflow/subagents/config.py",
+      "backend/packages/harness/deerflow/subagents/executor.py"
+    ],
+    "backend/packages/harness/deerflow/tools/builtins/tool_search.py": [],
+    "backend/packages/harness/deerflow/tools/builtins/view_image_tool.py": [
+      "backend/packages/harness/deerflow/agents/thread_state.py",
+      "backend/packages/harness/deerflow/config/paths.py"
+    ],
+    "backend/packages/harness/deerflow/tools/skill_manage_tool.py": [
+      "backend/packages/harness/deerflow/agents/lead_agent/prompt.py",
+      "backend/packages/harness/deerflow/agents/thread_state.py",
+      "backend/packages/harness/deerflow/mcp/tools.py"
+    ],
+    "backend/packages/harness/deerflow/tools/tools.py": [
+      "backend/packages/harness/deerflow/config/__init__.py",
+      "backend/packages/harness/deerflow/config/app_config.py",
+      "backend/packages/harness/deerflow/reflection/__init__.py",
+      "backend/packages/harness/deerflow/sandbox/security.py",
+      "backend/packages/harness/deerflow/tools/builtins/__init__.py",
+      "backend/packages/harness/deerflow/tools/builtins/present_file_tool.py",
+      "backend/packages/harness/deerflow/tools/builtins/task_tool.py",
+      "backend/packages/harness/deerflow/tools/builtins/tool_search.py",
+      "backend/packages/harness/deerflow/tools/builtins/view_image_tool.py"
+    ],
+    "backend/packages/harness/deerflow/tracing/__init__.py": [
+      "backend/packages/harness/deerflow/tracing/factory.py"
+    ],
+    "backend/packages/harness/deerflow/tracing/factory.py": [
+      "backend/packages/harness/deerflow/config/__init__.py"
+    ],
+    "backend/packages/harness/deerflow/uploads/__init__.py": [
+      "backend/packages/harness/deerflow/uploads/manager.py"
+    ],
+    "backend/packages/harness/deerflow/uploads/manager.py": [
+      "backend/packages/harness/deerflow/config/paths.py",
+      "backend/packages/harness/deerflow/runtime/user_context.py"
+    ],
+    "backend/packages/harness/deerflow/utils/file_conversion.py": [
+      "backend/packages/harness/deerflow/config/app_config.py"
+    ],
+    "backend/packages/harness/deerflow/utils/network.py": [],
+    "backend/packages/harness/deerflow/utils/readability.py": [],
+    "backend/packages/harness/pyproject.toml": [],
+    "backend/pyproject.toml": [],
+    "backend/README.md": [],
+    "backend/ruff.toml": [],
+    "backend/scripts/migrate_user_isolation.py": [],
+    "CODE_OF_CONDUCT.md": [],
+    "config.example.yaml": [],
+    "CONTRIBUTING.md": [],
+    "deer-flow.code-workspace": [],
+    "docker/docker-compose-dev.yaml": [],
+    "docker/docker-compose.yaml": [],
+    "docker/nginx/nginx.conf": [],
+    "docker/nginx/nginx.local.conf": [],
+    "docker/provisioner/app.py": [],
+    "docker/provisioner/Dockerfile": [],
+    "docker/provisioner/README.md": [],
+    "extensions_config.example.json": [],
+    "Install.md": [],
+    "Makefile": [],
+    "README_fr.md": [],
+    "README_ja.md": [],
+    "README_ru.md": [],
+    "README_zh.md": [],
+    "README.md": [],
+    "scripts/check.py": [],
+    "scripts/check.sh": [],
+    "scripts/cleanup-containers.sh": [],
+    "scripts/config-upgrade.sh": [],
+    "scripts/configure.py": [],
+    "scripts/deploy.sh": [],
+    "scripts/docker.sh": [],
+    "scripts/doctor.py": [],
+    "scripts/export_claude_code_oauth.py": [],
+    "scripts/load_memory_sample.py": [],
+    "scripts/run-with-git-bash.cmd": [],
+    "scripts/serve.sh": [],
+    "scripts/setup_wizard.py": [],
+    "scripts/start-daemon.sh": [],
+    "scripts/tool-error-degradation-detection.sh": [],
+    "scripts/wait-for-port.sh": [],
+    "scripts/wizard/__init__.py": [],
+    "scripts/wizard/providers.py": [],
+    "scripts/wizard/steps/__init__.py": [],
+    "scripts/wizard/steps/execution.py": [
+      "scripts/wizard/ui.py"
+    ],
+    "scripts/wizard/steps/llm.py": [
+      "scripts/wizard/providers.py",
+      "scripts/wizard/ui.py"
+    ],
+    "scripts/wizard/steps/search.py": [
+      "scripts/wizard/providers.py",
+      "scripts/wizard/ui.py"
+    ],
+    "scripts/wizard/ui.py": [],
+    "scripts/wizard/writer.py": [],
+    "SECURITY.md": []
+  }
+}
