@@ -274,6 +274,8 @@ make down   # 停止并移除容器
    make dev
    ```
 
+   如果需要绕过 Make，在不同终端中分别启动 Gateway、Frontend 和 Nginx，请参阅[手动启动本地组件](docs/manual-local-startup.zh-CN.md)。
+
 5. **访问地址**：http://localhost:2026
 
 ### 进阶配置
