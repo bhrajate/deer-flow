@@ -1,0 +1,2637 @@
+{
+  "/home/glory/code/github/deer-flow/backend/app/__init__.py": {
+    "mtime": 1777704071.1940973,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/channels/__init__.py": {
+    "mtime": 1777704071.1940973,
+    "ast_hash": "c4f8f175779c156ae0a70f4e7c1124d5",
+    "semantic_hash": "c4f8f175779c156ae0a70f4e7c1124d5"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/channels/base.py": {
+    "mtime": 1777704071.1940973,
+    "ast_hash": "d22319110bbf4887c85ae999a8e3ebd3",
+    "semantic_hash": "d22319110bbf4887c85ae999a8e3ebd3"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/channels/commands.py": {
+    "mtime": 1777704071.1940973,
+    "ast_hash": "48364dbe6a862000b3fae8f887c8f66e",
+    "semantic_hash": "48364dbe6a862000b3fae8f887c8f66e"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/channels/dingtalk.py": {
+    "mtime": 1777704071.1980975,
+    "ast_hash": "2fbf89e0db05156347e93b01e679bd7e",
+    "semantic_hash": "2fbf89e0db05156347e93b01e679bd7e"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/channels/discord.py": {
+    "mtime": 1780665232.7264166,
+    "ast_hash": "c1d7729a47ffd96526d99c3973764723",
+    "semantic_hash": "c1d7729a47ffd96526d99c3973764723"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/channels/feishu.py": {
+    "mtime": 1780665232.7264166,
+    "ast_hash": "ed290825d2248663fb6d66158424344f",
+    "semantic_hash": "ed290825d2248663fb6d66158424344f"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/channels/manager.py": {
+    "mtime": 1780665232.7264166,
+    "ast_hash": "6b459de00ba43c693c0a251a86233cf6",
+    "semantic_hash": "6b459de00ba43c693c0a251a86233cf6"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/channels/message_bus.py": {
+    "mtime": 1780665232.7264166,
+    "ast_hash": "4cfd1e163b24851b69249f55125570e2",
+    "semantic_hash": "4cfd1e163b24851b69249f55125570e2"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/channels/service.py": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "ea4b1e7d3198e020b60b40a362ca2502",
+    "semantic_hash": "ea4b1e7d3198e020b60b40a362ca2502"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/channels/slack.py": {
+    "mtime": 1777704071.1980975,
+    "ast_hash": "93dda926f79333463a3477589488c7e1",
+    "semantic_hash": "93dda926f79333463a3477589488c7e1"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/channels/store.py": {
+    "mtime": 1777704071.1980975,
+    "ast_hash": "d4d6009d9cc218d30a4eca9b1bf6d55a",
+    "semantic_hash": "d4d6009d9cc218d30a4eca9b1bf6d55a"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/channels/telegram.py": {
+    "mtime": 1777704071.1980975,
+    "ast_hash": "ca1779b67f50a6c977e2389430dc68e3",
+    "semantic_hash": "ca1779b67f50a6c977e2389430dc68e3"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/channels/wechat.py": {
+    "mtime": 1777704071.2020974,
+    "ast_hash": "e79be9d0c4331d5b69e2d474b30092b3",
+    "semantic_hash": "e79be9d0c4331d5b69e2d474b30092b3"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/channels/wecom.py": {
+    "mtime": 1777704071.2020974,
+    "ast_hash": "14954298dda38e06074b39103bc7f0e6",
+    "semantic_hash": "14954298dda38e06074b39103bc7f0e6"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/__init__.py": {
+    "mtime": 1777704071.2020974,
+    "ast_hash": "841005ad9c23a18d16a2fb2bdeebee00",
+    "semantic_hash": "841005ad9c23a18d16a2fb2bdeebee00"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/app.py": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "3fdf07b8411d424fbd75a233dfab7a9a",
+    "semantic_hash": "3fdf07b8411d424fbd75a233dfab7a9a"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/auth/__init__.py": {
+    "mtime": 1777704071.2020974,
+    "ast_hash": "47871b65f4f25adbbdf1a5dbc8ff21e0",
+    "semantic_hash": "47871b65f4f25adbbdf1a5dbc8ff21e0"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/auth/config.py": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "98d03789398a2665e8beced3dc7db332",
+    "semantic_hash": "98d03789398a2665e8beced3dc7db332"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/auth/errors.py": {
+    "mtime": 1777704071.2020974,
+    "ast_hash": "526891c42347b074bdb1f7724a044903",
+    "semantic_hash": "526891c42347b074bdb1f7724a044903"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/auth/jwt.py": {
+    "mtime": 1777704071.2020974,
+    "ast_hash": "9f04102544bf758f32bae7a5505781a8",
+    "semantic_hash": "9f04102544bf758f32bae7a5505781a8"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/auth/local_provider.py": {
+    "mtime": 1777704071.2020974,
+    "ast_hash": "a8aa20e130c66fb8413f69202b249110",
+    "semantic_hash": "a8aa20e130c66fb8413f69202b249110"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/auth/models.py": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "f672bd121f55be2bf28bab6485072975",
+    "semantic_hash": "f672bd121f55be2bf28bab6485072975"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/auth/providers.py": {
+    "mtime": 1777704071.2020974,
+    "ast_hash": "9cceda4fb5b1203d6a635002553a9f50",
+    "semantic_hash": "9cceda4fb5b1203d6a635002553a9f50"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/auth/repositories/__init__.py": {
+    "mtime": 1777704071.2060974,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/auth/repositories/base.py": {
+    "mtime": 1777704071.2060974,
+    "ast_hash": "e7348c572fd67d3e74a633d694cb8820",
+    "semantic_hash": "e7348c572fd67d3e74a633d694cb8820"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/auth/repositories/sqlite.py": {
+    "mtime": 1777704071.2060974,
+    "ast_hash": "e28dd4046bba67bbea128aaa09e91ba5",
+    "semantic_hash": "e28dd4046bba67bbea128aaa09e91ba5"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/auth/reset_admin.py": {
+    "mtime": 1777704071.2060974,
+    "ast_hash": "e72f661b28580c13d745d18f073eb1e9",
+    "semantic_hash": "e72f661b28580c13d745d18f073eb1e9"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/auth_middleware.py": {
+    "mtime": 1777704071.2060974,
+    "ast_hash": "1d5e9a0041b181ecd14ab417072d0d1f",
+    "semantic_hash": "1d5e9a0041b181ecd14ab417072d0d1f"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/authz.py": {
+    "mtime": 1777704071.2060974,
+    "ast_hash": "43303cfecc6c76b2855a10bb5350502d",
+    "semantic_hash": "43303cfecc6c76b2855a10bb5350502d"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/config.py": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "a274f421a0376713fc3e06bf73c85155",
+    "semantic_hash": "a274f421a0376713fc3e06bf73c85155"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/csrf_middleware.py": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "2eeb5fb57b68c96e9f91fcef2cc6d201",
+    "semantic_hash": "2eeb5fb57b68c96e9f91fcef2cc6d201"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/deps.py": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "987dac08c877c3d0c9292a2579cf432a",
+    "semantic_hash": "987dac08c877c3d0c9292a2579cf432a"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/internal_auth.py": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "d9eb764239637b031fdb852b64301077",
+    "semantic_hash": "d9eb764239637b031fdb852b64301077"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/langgraph_auth.py": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "f2cc77346596ae0b291c1e4771da656c",
+    "semantic_hash": "f2cc77346596ae0b291c1e4771da656c"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/pagination.py": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "41290ef59f3ce57d20fd7fc023ef28c8",
+    "semantic_hash": "41290ef59f3ce57d20fd7fc023ef28c8"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/path_utils.py": {
+    "mtime": 1777704071.2060974,
+    "ast_hash": "90a59fbf660428474512f0a614d98784",
+    "semantic_hash": "90a59fbf660428474512f0a614d98784"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/routers/__init__.py": {
+    "mtime": 1777704071.2060974,
+    "ast_hash": "78c53e2d7790b4a15b8da8b9060542b0",
+    "semantic_hash": "78c53e2d7790b4a15b8da8b9060542b0"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/routers/agents.py": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "26f6ab96f56d4d0c8bb0566e76fabe4a",
+    "semantic_hash": "26f6ab96f56d4d0c8bb0566e76fabe4a"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/routers/artifacts.py": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "a58c016e08be89f9470a3b9a27a37c38",
+    "semantic_hash": "a58c016e08be89f9470a3b9a27a37c38"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/routers/assistants_compat.py": {
+    "mtime": 1777704071.2060974,
+    "ast_hash": "b39596cd0b265fa31801e41d2711d9f6",
+    "semantic_hash": "b39596cd0b265fa31801e41d2711d9f6"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/routers/auth.py": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "823e1c7b8615bca31c20566ed6898a24",
+    "semantic_hash": "823e1c7b8615bca31c20566ed6898a24"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/routers/channels.py": {
+    "mtime": 1777704071.2060974,
+    "ast_hash": "69dd5115049961ca0938fe184643e431",
+    "semantic_hash": "69dd5115049961ca0938fe184643e431"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/routers/feedback.py": {
+    "mtime": 1777704071.2060974,
+    "ast_hash": "aa2b12808bea54ea2aa8c99b011d025f",
+    "semantic_hash": "aa2b12808bea54ea2aa8c99b011d025f"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/routers/mcp.py": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "452893dd7901d1887ce02ccf6de1e61a",
+    "semantic_hash": "452893dd7901d1887ce02ccf6de1e61a"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/routers/memory.py": {
+    "mtime": 1777704071.2060974,
+    "ast_hash": "d4bb3158f2f2102e4b375af290b411eb",
+    "semantic_hash": "d4bb3158f2f2102e4b375af290b411eb"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/routers/models.py": {
+    "mtime": 1777704071.2060974,
+    "ast_hash": "2e36f1953b133ac739043cbc95a49cf8",
+    "semantic_hash": "2e36f1953b133ac739043cbc95a49cf8"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/routers/runs.py": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "4cde4da90a7d89f02bdea2f19bd9e721",
+    "semantic_hash": "4cde4da90a7d89f02bdea2f19bd9e721"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/routers/skills.py": {
+    "mtime": 1777704071.2060974,
+    "ast_hash": "95ed5740f5cec39cd37e6ecf99d55e9e",
+    "semantic_hash": "95ed5740f5cec39cd37e6ecf99d55e9e"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/routers/suggestions.py": {
+    "mtime": 1777704071.2060974,
+    "ast_hash": "0bd3fb6534ba7f314dad3c102333f3c8",
+    "semantic_hash": "0bd3fb6534ba7f314dad3c102333f3c8"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/routers/thread_runs.py": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "d99c3afca61a95207f1e0682697280ad",
+    "semantic_hash": "d99c3afca61a95207f1e0682697280ad"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/routers/threads.py": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "8810801955f8645c250608b0074ebd71",
+    "semantic_hash": "8810801955f8645c250608b0074ebd71"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/routers/uploads.py": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "42aca55b56797c5a505b9665c860994d",
+    "semantic_hash": "42aca55b56797c5a505b9665c860994d"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/services.py": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "06a277ed2e94c0ad557842afa501b707",
+    "semantic_hash": "06a277ed2e94c0ad557842afa501b707"
+  },
+  "/home/glory/code/github/deer-flow/backend/app/gateway/utils.py": {
+    "mtime": 1777704071.2100973,
+    "ast_hash": "c0699c70af27242c9bd4faa2bf773c6c",
+    "semantic_hash": "c0699c70af27242c9bd4faa2bf773c6c"
+  },
+  "/home/glory/code/github/deer-flow/backend/debug.py": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "d3a9e3f4b72aa020807027c956f3c8f9",
+    "semantic_hash": "d3a9e3f4b72aa020807027c956f3c8f9"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/memory-settings-sample.json": {
+    "mtime": 1777704071.2180974,
+    "ast_hash": "326d44ec55cf8d85879949b82ad4cb4b",
+    "semantic_hash": "326d44ec55cf8d85879949b82ad4cb4b"
+  },
+  "/home/glory/code/github/deer-flow/backend/langgraph.json": {
+    "mtime": 1777704071.2180974,
+    "ast_hash": "46e5dce0c77de782227ee258b3975051",
+    "semantic_hash": "46e5dce0c77de782227ee258b3975051"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/__init__.py": {
+    "mtime": 1777704071.2180974,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/__init__.py": {
+    "mtime": 1777704071.2180974,
+    "ast_hash": "b5796d576bff15b8b776b7d4c93714dc",
+    "semantic_hash": "b5796d576bff15b8b776b7d4c93714dc"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/factory.py": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "70b5d4500189f852e27c5a4602f4e0f0",
+    "semantic_hash": "70b5d4500189f852e27c5a4602f4e0f0"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/features.py": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "447d521f0b3ed7f2e3ab0761c9e00046",
+    "semantic_hash": "447d521f0b3ed7f2e3ab0761c9e00046"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/lead_agent/__init__.py": {
+    "mtime": 1777704071.2180974,
+    "ast_hash": "f7617d4fe84d4c74ccc8875c2a6839f8",
+    "semantic_hash": "f7617d4fe84d4c74ccc8875c2a6839f8"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/lead_agent/agent.py": {
+    "mtime": 1780665232.7344165,
+    "ast_hash": "713f260ca1de8e3ec6d53d296ffe42d9",
+    "semantic_hash": "713f260ca1de8e3ec6d53d296ffe42d9"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/lead_agent/prompt.py": {
+    "mtime": 1780665232.7344165,
+    "ast_hash": "07780ec5f9de7fd5b412aeab7fe69792",
+    "semantic_hash": "07780ec5f9de7fd5b412aeab7fe69792"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/memory/__init__.py": {
+    "mtime": 1777704071.2220974,
+    "ast_hash": "f8241bf30eacd6143b9cf189fa5cd042",
+    "semantic_hash": "f8241bf30eacd6143b9cf189fa5cd042"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/memory/message_processing.py": {
+    "mtime": 1777704071.2220974,
+    "ast_hash": "470f9c51b8be4016a486584992d6e6b3",
+    "semantic_hash": "470f9c51b8be4016a486584992d6e6b3"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/memory/prompt.py": {
+    "mtime": 1777704071.2220974,
+    "ast_hash": "ed4901b5ee4848c0a535b6ae0cdfa505",
+    "semantic_hash": "ed4901b5ee4848c0a535b6ae0cdfa505"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/memory/queue.py": {
+    "mtime": 1780665232.7344165,
+    "ast_hash": "f300a5b1eea3f97b7832e4387f74db35",
+    "semantic_hash": "f300a5b1eea3f97b7832e4387f74db35"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/memory/storage.py": {
+    "mtime": 1777704071.2220974,
+    "ast_hash": "54e7afdd4f4483fb5d9301342aa37f8f",
+    "semantic_hash": "54e7afdd4f4483fb5d9301342aa37f8f"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/memory/summarization_hook.py": {
+    "mtime": 1780665232.7344165,
+    "ast_hash": "a38ba153b234505a973296f031b9c22e",
+    "semantic_hash": "a38ba153b234505a973296f031b9c22e"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/memory/updater.py": {
+    "mtime": 1780665232.7344165,
+    "ast_hash": "ae3f1331df8aef0fff901e59a1b43fb8",
+    "semantic_hash": "ae3f1331df8aef0fff901e59a1b43fb8"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/middlewares/__init__.py": {
+    "mtime": 1777704071.2220974,
+    "ast_hash": "68b329da9893e34099c7d8ad5cb9c940",
+    "semantic_hash": "68b329da9893e34099c7d8ad5cb9c940"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/middlewares/clarification_middleware.py": {
+    "mtime": 1777704071.2260973,
+    "ast_hash": "bea9fc5c1f0383d0b3683db7f17abefb",
+    "semantic_hash": "bea9fc5c1f0383d0b3683db7f17abefb"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/middlewares/dangling_tool_call_middleware.py": {
+    "mtime": 1780665232.7344165,
+    "ast_hash": "f676dfd7eb4c812092fec1865c8bda9d",
+    "semantic_hash": "f676dfd7eb4c812092fec1865c8bda9d"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/middlewares/deferred_tool_filter_middleware.py": {
+    "mtime": 1780665232.7344165,
+    "ast_hash": "240d191e6bbdb9872485729f903a94c6",
+    "semantic_hash": "240d191e6bbdb9872485729f903a94c6"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/middlewares/dynamic_context_middleware.py": {
+    "mtime": 1780665232.7344165,
+    "ast_hash": "d6820d83473ff6465ec0ada7fb98339e",
+    "semantic_hash": "d6820d83473ff6465ec0ada7fb98339e"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/middlewares/llm_error_handling_middleware.py": {
+    "mtime": 1780665232.7344165,
+    "ast_hash": "1ee226d98b0ffa88a2907e1a0ce07c1d",
+    "semantic_hash": "1ee226d98b0ffa88a2907e1a0ce07c1d"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/middlewares/loop_detection_middleware.py": {
+    "mtime": 1780665232.7344165,
+    "ast_hash": "c1bb9c1633c3c0e037b07d899008c8c4",
+    "semantic_hash": "c1bb9c1633c3c0e037b07d899008c8c4"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/middlewares/memory_middleware.py": {
+    "mtime": 1777704071.2260973,
+    "ast_hash": "a6ade9001c9dbb7041f81b3a9a0fff04",
+    "semantic_hash": "a6ade9001c9dbb7041f81b3a9a0fff04"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/middlewares/safety_finish_reason_middleware.py": {
+    "mtime": 1780665232.7344165,
+    "ast_hash": "ddfadd5e4647adbeebb4f233ef56c132",
+    "semantic_hash": "ddfadd5e4647adbeebb4f233ef56c132"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/middlewares/safety_termination_detectors.py": {
+    "mtime": 1780665232.7344165,
+    "ast_hash": "63336cd2a4c3424845b8553d20823feb",
+    "semantic_hash": "63336cd2a4c3424845b8553d20823feb"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/middlewares/sandbox_audit_middleware.py": {
+    "mtime": 1777704071.2260973,
+    "ast_hash": "4479fb82eead7572f944e072cf2e8f23",
+    "semantic_hash": "4479fb82eead7572f944e072cf2e8f23"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/middlewares/subagent_limit_middleware.py": {
+    "mtime": 1780665232.7344165,
+    "ast_hash": "68d8be519481f6dd740d2b24261aadee",
+    "semantic_hash": "68d8be519481f6dd740d2b24261aadee"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/middlewares/summarization_middleware.py": {
+    "mtime": 1780665232.7344165,
+    "ast_hash": "9d2993156a504edc09984a860f10d37d",
+    "semantic_hash": "9d2993156a504edc09984a860f10d37d"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/middlewares/thread_data_middleware.py": {
+    "mtime": 1777704071.2260973,
+    "ast_hash": "8e540bb42d3b0eb32ba78f61515cb808",
+    "semantic_hash": "8e540bb42d3b0eb32ba78f61515cb808"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/middlewares/title_middleware.py": {
+    "mtime": 1780665232.7344165,
+    "ast_hash": "61319c6f5df8f169e19686b33f00606e",
+    "semantic_hash": "61319c6f5df8f169e19686b33f00606e"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/middlewares/todo_middleware.py": {
+    "mtime": 1780665232.7344165,
+    "ast_hash": "7b61b87e60e9ff25e03ef40e3eb9de0d",
+    "semantic_hash": "7b61b87e60e9ff25e03ef40e3eb9de0d"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/middlewares/token_usage_middleware.py": {
+    "mtime": 1780665232.7344165,
+    "ast_hash": "df9d8401314d77779e34c190e1e42bd3",
+    "semantic_hash": "df9d8401314d77779e34c190e1e42bd3"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/middlewares/tool_call_metadata.py": {
+    "mtime": 1780665232.7344165,
+    "ast_hash": "aacd16909bddcc70e74599a44899d1a6",
+    "semantic_hash": "aacd16909bddcc70e74599a44899d1a6"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/middlewares/tool_error_handling_middleware.py": {
+    "mtime": 1780665232.7344165,
+    "ast_hash": "67ff8f15794ab9c8b89767ed2c916f87",
+    "semantic_hash": "67ff8f15794ab9c8b89767ed2c916f87"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/middlewares/tool_output_budget_middleware.py": {
+    "mtime": 1780665232.7344165,
+    "ast_hash": "941171b09f74bf20d38a241ea2a42969",
+    "semantic_hash": "941171b09f74bf20d38a241ea2a42969"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/middlewares/uploads_middleware.py": {
+    "mtime": 1780665232.7344165,
+    "ast_hash": "2c8ea838f38bf3e25fb1601ee18363f0",
+    "semantic_hash": "2c8ea838f38bf3e25fb1601ee18363f0"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/middlewares/view_image_middleware.py": {
+    "mtime": 1777704071.2300973,
+    "ast_hash": "d3dda384995d45efbaed1f44ffc02584",
+    "semantic_hash": "d3dda384995d45efbaed1f44ffc02584"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/agents/thread_state.py": {
+    "mtime": 1780665232.7344165,
+    "ast_hash": "e3f131870d0a3c0a16d2a9e792b4b437",
+    "semantic_hash": "e3f131870d0a3c0a16d2a9e792b4b437"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/client.py": {
+    "mtime": 1780665232.7344165,
+    "ast_hash": "87199244c76a31ec3f5c008b965326cf",
+    "semantic_hash": "87199244c76a31ec3f5c008b965326cf"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/community/aio_sandbox/__init__.py": {
+    "mtime": 1777704071.2340975,
+    "ast_hash": "1e44794dd92e8d3aaab69d7165d6aa53",
+    "semantic_hash": "1e44794dd92e8d3aaab69d7165d6aa53"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/community/aio_sandbox/aio_sandbox.py": {
+    "mtime": 1780665232.7344165,
+    "ast_hash": "e7c23e1290588058e910d8870c434b8b",
+    "semantic_hash": "e7c23e1290588058e910d8870c434b8b"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/community/aio_sandbox/aio_sandbox_provider.py": {
+    "mtime": 1780665232.7344165,
+    "ast_hash": "e345ea764c9fd48bf8091953c5f211ce",
+    "semantic_hash": "e345ea764c9fd48bf8091953c5f211ce"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/community/aio_sandbox/backend.py": {
+    "mtime": 1780665232.7344165,
+    "ast_hash": "06bfd77b17cf0468fdb16dba8d202211",
+    "semantic_hash": "06bfd77b17cf0468fdb16dba8d202211"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/community/aio_sandbox/local_backend.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "a26b1be44f8e9866345c155731191f98",
+    "semantic_hash": "a26b1be44f8e9866345c155731191f98"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/community/aio_sandbox/remote_backend.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "4a945669ff1b92d55574a74f9961c1f6",
+    "semantic_hash": "4a945669ff1b92d55574a74f9961c1f6"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/community/aio_sandbox/sandbox_info.py": {
+    "mtime": 1777704071.2340975,
+    "ast_hash": "fb31971f44850bc2413dc34e3c92d13e",
+    "semantic_hash": "fb31971f44850bc2413dc34e3c92d13e"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/community/ddg_search/__init__.py": {
+    "mtime": 1777704071.2340975,
+    "ast_hash": "30ef1bf9d18fd7855116f995b4b414fc",
+    "semantic_hash": "30ef1bf9d18fd7855116f995b4b414fc"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/community/ddg_search/tools.py": {
+    "mtime": 1777704071.2380974,
+    "ast_hash": "30d0b7716798f90427c2dcda5b3a7456",
+    "semantic_hash": "30d0b7716798f90427c2dcda5b3a7456"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/community/exa/tools.py": {
+    "mtime": 1777704071.2380974,
+    "ast_hash": "0524c944357d68dd958026999cb2f054",
+    "semantic_hash": "0524c944357d68dd958026999cb2f054"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/community/firecrawl/tools.py": {
+    "mtime": 1777704071.2380974,
+    "ast_hash": "30089fb72431926498ac98e239ca2a40",
+    "semantic_hash": "30089fb72431926498ac98e239ca2a40"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/community/image_search/__init__.py": {
+    "mtime": 1777704071.2380974,
+    "ast_hash": "1c9d9f0087dff57192d66d98a16a6eb9",
+    "semantic_hash": "1c9d9f0087dff57192d66d98a16a6eb9"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/community/image_search/tools.py": {
+    "mtime": 1777704071.2380974,
+    "ast_hash": "0e657f6fb26275350740b9c5e13b19df",
+    "semantic_hash": "0e657f6fb26275350740b9c5e13b19df"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/community/infoquest/infoquest_client.py": {
+    "mtime": 1777704071.2380974,
+    "ast_hash": "38e618bbc47583b0673d9d6adca07ccc",
+    "semantic_hash": "38e618bbc47583b0673d9d6adca07ccc"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/community/infoquest/tools.py": {
+    "mtime": 1777704071.2420974,
+    "ast_hash": "8863876d071822d3ee45e0099041ca17",
+    "semantic_hash": "8863876d071822d3ee45e0099041ca17"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/community/jina_ai/jina_client.py": {
+    "mtime": 1777704071.2420974,
+    "ast_hash": "0cb90b55d275f86e70a9c8fb9700d871",
+    "semantic_hash": "0cb90b55d275f86e70a9c8fb9700d871"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/community/jina_ai/tools.py": {
+    "mtime": 1777704071.2420974,
+    "ast_hash": "3d30b0ede604b6721832ee02418d4d00",
+    "semantic_hash": "3d30b0ede604b6721832ee02418d4d00"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/community/serper/__init__.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "30ef1bf9d18fd7855116f995b4b414fc",
+    "semantic_hash": "30ef1bf9d18fd7855116f995b4b414fc"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/community/serper/tools.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "4eea5efe562c1b7a86724369e97de833",
+    "semantic_hash": "4eea5efe562c1b7a86724369e97de833"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/community/tavily/tools.py": {
+    "mtime": 1777704071.2420974,
+    "ast_hash": "7393b0dc9c8cd9b275b82a978d748c42",
+    "semantic_hash": "7393b0dc9c8cd9b275b82a978d748c42"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/config/__init__.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "17f8d4170b606572113abf9544761cab",
+    "semantic_hash": "17f8d4170b606572113abf9544761cab"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/config/acp_config.py": {
+    "mtime": 1777704071.2420974,
+    "ast_hash": "92a0e48fef880bed0b495add5fe9b867",
+    "semantic_hash": "92a0e48fef880bed0b495add5fe9b867"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/config/agents_api_config.py": {
+    "mtime": 1777704071.2460973,
+    "ast_hash": "bbd714a5f9cd2241bdb1a328cfac821b",
+    "semantic_hash": "bbd714a5f9cd2241bdb1a328cfac821b"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/config/agents_config.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "cc156fdf65085905fc4f58827c7c6ca8",
+    "semantic_hash": "cc156fdf65085905fc4f58827c7c6ca8"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/config/app_config.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "b42d15a4d9657900129ac10b909b5965",
+    "semantic_hash": "b42d15a4d9657900129ac10b909b5965"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/config/checkpointer_config.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "9effacc8818d894ecda209d30c213d71",
+    "semantic_hash": "9effacc8818d894ecda209d30c213d71"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/config/database_config.py": {
+    "mtime": 1777704071.2460973,
+    "ast_hash": "a95f84243879d1006e94ce906ad85270",
+    "semantic_hash": "a95f84243879d1006e94ce906ad85270"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/config/extensions_config.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "8c6b0fe01d70de67e5b3d6e1a6cfc68a",
+    "semantic_hash": "8c6b0fe01d70de67e5b3d6e1a6cfc68a"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/config/guardrails_config.py": {
+    "mtime": 1777704071.2460973,
+    "ast_hash": "a8d64de2f43f6ac290dd8ef7f5d7fc1f",
+    "semantic_hash": "a8d64de2f43f6ac290dd8ef7f5d7fc1f"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/config/loop_detection_config.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "8017a8762970dcfa2000ec6a28bdabe3",
+    "semantic_hash": "8017a8762970dcfa2000ec6a28bdabe3"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/config/memory_config.py": {
+    "mtime": 1777704071.2460973,
+    "ast_hash": "9283f6fc3f836e4bafe9a511e4f93c27",
+    "semantic_hash": "9283f6fc3f836e4bafe9a511e4f93c27"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/config/model_config.py": {
+    "mtime": 1777704071.2460973,
+    "ast_hash": "ad037582451f9774373a431bbaa266eb",
+    "semantic_hash": "ad037582451f9774373a431bbaa266eb"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/config/paths.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "6f748878200688ef1b4ccc37f10c1351",
+    "semantic_hash": "6f748878200688ef1b4ccc37f10c1351"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/config/run_events_config.py": {
+    "mtime": 1777704071.2500975,
+    "ast_hash": "e6f88ddfc0b23c606a0f316376df17be",
+    "semantic_hash": "e6f88ddfc0b23c606a0f316376df17be"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/config/runtime_paths.py": {
+    "mtime": 1777704071.2500975,
+    "ast_hash": "0a349a1cdf8b5fbd8b3bf015938d5c98",
+    "semantic_hash": "0a349a1cdf8b5fbd8b3bf015938d5c98"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/config/safety_finish_reason_config.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "0d9736fd9919a4591107971c5a37c4f8",
+    "semantic_hash": "0d9736fd9919a4591107971c5a37c4f8"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/config/sandbox_config.py": {
+    "mtime": 1777704071.2500975,
+    "ast_hash": "11aa2920f7ccf7e51bcea0fee806e5bc",
+    "semantic_hash": "11aa2920f7ccf7e51bcea0fee806e5bc"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/config/skill_evolution_config.py": {
+    "mtime": 1777704071.2500975,
+    "ast_hash": "3fb36dc3c3720ba08229cd5397056d70",
+    "semantic_hash": "3fb36dc3c3720ba08229cd5397056d70"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/config/skills_config.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "bad1cd5aa24d185ef847586c830199c5",
+    "semantic_hash": "bad1cd5aa24d185ef847586c830199c5"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/config/stream_bridge_config.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "4d8367a9b617c10a57651a5ad20bca18",
+    "semantic_hash": "4d8367a9b617c10a57651a5ad20bca18"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/config/subagents_config.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "017eb52949f3014d844f80555aae77ae",
+    "semantic_hash": "017eb52949f3014d844f80555aae77ae"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/config/summarization_config.py": {
+    "mtime": 1777704071.2500975,
+    "ast_hash": "c9fb6073e270da9d271447e5c695b89f",
+    "semantic_hash": "c9fb6073e270da9d271447e5c695b89f"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/config/title_config.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "a5ccd3ef18b95c18d72959db8216c130",
+    "semantic_hash": "a5ccd3ef18b95c18d72959db8216c130"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/config/token_usage_config.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "2f4fd6482adb7ac6584d6ae39d3624de",
+    "semantic_hash": "2f4fd6482adb7ac6584d6ae39d3624de"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/config/tool_config.py": {
+    "mtime": 1777704071.2540975,
+    "ast_hash": "4d0ef15cb869234201424c1c760ad6dd",
+    "semantic_hash": "4d0ef15cb869234201424c1c760ad6dd"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/config/tool_output_config.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "cf2c8fa9e029bffcfdf50ef9109c00c5",
+    "semantic_hash": "cf2c8fa9e029bffcfdf50ef9109c00c5"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/config/tool_search_config.py": {
+    "mtime": 1777704071.2540975,
+    "ast_hash": "032c169538f5d75d926bc2a4a1ef007c",
+    "semantic_hash": "032c169538f5d75d926bc2a4a1ef007c"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/config/tracing_config.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "a21e4f959ad5a12865040e4b45eb1be5",
+    "semantic_hash": "a21e4f959ad5a12865040e4b45eb1be5"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/guardrails/__init__.py": {
+    "mtime": 1777704071.2540975,
+    "ast_hash": "e2f9542c0d009ae8be02ffe978b66086",
+    "semantic_hash": "e2f9542c0d009ae8be02ffe978b66086"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/guardrails/builtin.py": {
+    "mtime": 1777704071.2540975,
+    "ast_hash": "c5b7675b14b49cc250509b0dafa8c1ce",
+    "semantic_hash": "c5b7675b14b49cc250509b0dafa8c1ce"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/guardrails/middleware.py": {
+    "mtime": 1777704071.2540975,
+    "ast_hash": "03fe54a18e59b9ac41d7680abf8930ff",
+    "semantic_hash": "03fe54a18e59b9ac41d7680abf8930ff"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/guardrails/provider.py": {
+    "mtime": 1777704071.2540975,
+    "ast_hash": "1a0ccf872b8bcdeb1c556a3be4bfb671",
+    "semantic_hash": "1a0ccf872b8bcdeb1c556a3be4bfb671"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/mcp/__init__.py": {
+    "mtime": 1777704071.2540975,
+    "ast_hash": "4a716a09aaf7873ebd70db5742d8fbc8",
+    "semantic_hash": "4a716a09aaf7873ebd70db5742d8fbc8"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/mcp/cache.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "fe4e750abf523becc086c031037dc9b8",
+    "semantic_hash": "fe4e750abf523becc086c031037dc9b8"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/mcp/client.py": {
+    "mtime": 1777704071.2540975,
+    "ast_hash": "8a9dd8ec0333264bb2ef21576abc7233",
+    "semantic_hash": "8a9dd8ec0333264bb2ef21576abc7233"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/mcp/oauth.py": {
+    "mtime": 1777704071.2540975,
+    "ast_hash": "a6e2130e6c702445e0267134ffb56caf",
+    "semantic_hash": "a6e2130e6c702445e0267134ffb56caf"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/mcp/session_pool.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "629989817377d33ec47a0e19d387c860",
+    "semantic_hash": "629989817377d33ec47a0e19d387c860"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/mcp/tools.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "3020e1a2b32a887931bb5f892a87b2f0",
+    "semantic_hash": "3020e1a2b32a887931bb5f892a87b2f0"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/models/__init__.py": {
+    "mtime": 1777704071.2540975,
+    "ast_hash": "b9d0b302b839cc0b87af8c1aab362ea2",
+    "semantic_hash": "b9d0b302b839cc0b87af8c1aab362ea2"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/models/assistant_payload_replay.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "f8ef6691641f78f5aedbd4d61895236c",
+    "semantic_hash": "f8ef6691641f78f5aedbd4d61895236c"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/models/claude_provider.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "35616fce4c3409115f3d4fc54eaf1639",
+    "semantic_hash": "35616fce4c3409115f3d4fc54eaf1639"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/models/factory.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "52babca763ce99737750a274f006de83",
+    "semantic_hash": "52babca763ce99737750a274f006de83"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/models/mindie_provider.py": {
+    "mtime": 1777704071.2580974,
+    "ast_hash": "4ac74a41050cd93f2c0ca4f1d8baf245",
+    "semantic_hash": "4ac74a41050cd93f2c0ca4f1d8baf245"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/models/openai_codex_provider.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "17d50440dc90439d2086ef557b8a5670",
+    "semantic_hash": "17d50440dc90439d2086ef557b8a5670"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/models/patched_deepseek.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "e321c2b912a636cafd688cbfda1b8453",
+    "semantic_hash": "e321c2b912a636cafd688cbfda1b8453"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/models/patched_mimo.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "a32ca37e339d9caa210c8dc50d5d88cd",
+    "semantic_hash": "a32ca37e339d9caa210c8dc50d5d88cd"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/models/patched_minimax.py": {
+    "mtime": 1777704071.2580974,
+    "ast_hash": "c5b50dde29deecac3fddaec85b86a80c",
+    "semantic_hash": "c5b50dde29deecac3fddaec85b86a80c"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/models/patched_openai.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "203a4bfc1737637c2e1ecb7fbd80c6be",
+    "semantic_hash": "203a4bfc1737637c2e1ecb7fbd80c6be"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/models/vllm_provider.py": {
+    "mtime": 1777704071.2580974,
+    "ast_hash": "3e47d194bd26559c07bb1d5e9bb790d1",
+    "semantic_hash": "3e47d194bd26559c07bb1d5e9bb790d1"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/persistence/__init__.py": {
+    "mtime": 1777704071.2580974,
+    "ast_hash": "1aadef3a7e18bb2a9f2ac138bf0d8819",
+    "semantic_hash": "1aadef3a7e18bb2a9f2ac138bf0d8819"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/persistence/base.py": {
+    "mtime": 1777704071.2580974,
+    "ast_hash": "a0e26bb4bc3c40166132791c487f7def",
+    "semantic_hash": "a0e26bb4bc3c40166132791c487f7def"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/persistence/engine.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "9bb466fe2f7088af946d79747e6579d2",
+    "semantic_hash": "9bb466fe2f7088af946d79747e6579d2"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/persistence/feedback/__init__.py": {
+    "mtime": 1777704071.2580974,
+    "ast_hash": "40b17fd8a845f2e1f8d28a19aaa1b655",
+    "semantic_hash": "40b17fd8a845f2e1f8d28a19aaa1b655"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/persistence/feedback/model.py": {
+    "mtime": 1777704071.2580974,
+    "ast_hash": "7499327cc09b0982ac78064fa88fbe5a",
+    "semantic_hash": "7499327cc09b0982ac78064fa88fbe5a"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/persistence/feedback/sql.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "bef20e3f3d2017d33729b0b52ec16a32",
+    "semantic_hash": "bef20e3f3d2017d33729b0b52ec16a32"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/persistence/json_compat.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "ef012106d6daaf765b1a0ce6e5f121cf",
+    "semantic_hash": "ef012106d6daaf765b1a0ce6e5f121cf"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/persistence/migrations/env.py": {
+    "mtime": 1777704071.2580974,
+    "ast_hash": "5e3cf0e597bb4278b720c3be2468ba0a",
+    "semantic_hash": "5e3cf0e597bb4278b720c3be2468ba0a"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/persistence/models/__init__.py": {
+    "mtime": 1777704071.2620974,
+    "ast_hash": "95f6975c7e63e4f019eb2464811c0708",
+    "semantic_hash": "95f6975c7e63e4f019eb2464811c0708"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/persistence/models/run_event.py": {
+    "mtime": 1777704071.2620974,
+    "ast_hash": "8f76430d86a310bd9b4fdc220b695518",
+    "semantic_hash": "8f76430d86a310bd9b4fdc220b695518"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/persistence/run/__init__.py": {
+    "mtime": 1777704071.2620974,
+    "ast_hash": "8a1564cd60a9ce4d49822a9f38143ff9",
+    "semantic_hash": "8a1564cd60a9ce4d49822a9f38143ff9"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/persistence/run/model.py": {
+    "mtime": 1777704071.2620974,
+    "ast_hash": "d5250218b88f3bac164c84f754dbfef8",
+    "semantic_hash": "d5250218b88f3bac164c84f754dbfef8"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/persistence/run/sql.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "155c7cf5553d85d4e1d57937f3a9e146",
+    "semantic_hash": "155c7cf5553d85d4e1d57937f3a9e146"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/persistence/thread_meta/__init__.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "aeaeeed735880f9500179e6e225d3d88",
+    "semantic_hash": "aeaeeed735880f9500179e6e225d3d88"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/persistence/thread_meta/base.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "8d7f787464596dee7fdbd8c80aca3d0a",
+    "semantic_hash": "8d7f787464596dee7fdbd8c80aca3d0a"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/persistence/thread_meta/memory.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "95919a35ff9b158fde614dad2e4f5a2b",
+    "semantic_hash": "95919a35ff9b158fde614dad2e4f5a2b"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/persistence/thread_meta/model.py": {
+    "mtime": 1777704071.2660973,
+    "ast_hash": "edcd409b0e20fcaee9c4cd49b4bb2748",
+    "semantic_hash": "edcd409b0e20fcaee9c4cd49b4bb2748"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/persistence/thread_meta/sql.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "a42f1ad56a167d450f41ae3f009a52b4",
+    "semantic_hash": "a42f1ad56a167d450f41ae3f009a52b4"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/persistence/user/__init__.py": {
+    "mtime": 1777704071.2660973,
+    "ast_hash": "2370a92e64ec90d18e9994a80dac16ee",
+    "semantic_hash": "2370a92e64ec90d18e9994a80dac16ee"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/persistence/user/model.py": {
+    "mtime": 1777704071.2660973,
+    "ast_hash": "1fd8e95cd15f44a1f355932acd193925",
+    "semantic_hash": "1fd8e95cd15f44a1f355932acd193925"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/reflection/__init__.py": {
+    "mtime": 1777704071.2660973,
+    "ast_hash": "9850cd47525c66514be7171f11db3106",
+    "semantic_hash": "9850cd47525c66514be7171f11db3106"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/reflection/resolvers.py": {
+    "mtime": 1777704071.2700975,
+    "ast_hash": "ec91d2388c8762c0e9be21828fb04eda",
+    "semantic_hash": "ec91d2388c8762c0e9be21828fb04eda"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/__init__.py": {
+    "mtime": 1777704071.2700975,
+    "ast_hash": "5ca5c99c01fc83cf85c1f545bf52b553",
+    "semantic_hash": "5ca5c99c01fc83cf85c1f545bf52b553"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/checkpointer/__init__.py": {
+    "mtime": 1777704071.2700975,
+    "ast_hash": "83499e45620ccfed7369d1dd4b21024e",
+    "semantic_hash": "83499e45620ccfed7369d1dd4b21024e"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/checkpointer/async_provider.py": {
+    "mtime": 1780665232.7384164,
+    "ast_hash": "8328e16c3a3ce991253c3a99ca860732",
+    "semantic_hash": "8328e16c3a3ce991253c3a99ca860732"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/checkpointer/provider.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "28f75efc2c18c3fbac9b210ecb6621ca",
+    "semantic_hash": "28f75efc2c18c3fbac9b210ecb6621ca"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/converters.py": {
+    "mtime": 1777704071.2740974,
+    "ast_hash": "4524f05dfd492ecfcd36be6c204a2c53",
+    "semantic_hash": "4524f05dfd492ecfcd36be6c204a2c53"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/events/__init__.py": {
+    "mtime": 1777704071.2740974,
+    "ast_hash": "27cdd0b04912dd4549cd8f7bb4114fa1",
+    "semantic_hash": "27cdd0b04912dd4549cd8f7bb4114fa1"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/events/store/__init__.py": {
+    "mtime": 1777704071.2740974,
+    "ast_hash": "4829f6afa64571e33a7e6990890fd78e",
+    "semantic_hash": "4829f6afa64571e33a7e6990890fd78e"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/events/store/base.py": {
+    "mtime": 1777704071.2740974,
+    "ast_hash": "fd923c07186ce6ee5e77b916b0ebcc7b",
+    "semantic_hash": "fd923c07186ce6ee5e77b916b0ebcc7b"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/events/store/db.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "73fdf7db1cceb5e8797f37cb79f9229d",
+    "semantic_hash": "73fdf7db1cceb5e8797f37cb79f9229d"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/events/store/jsonl.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "091083b1755f39c9c209e2babea55c49",
+    "semantic_hash": "091083b1755f39c9c209e2babea55c49"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/events/store/memory.py": {
+    "mtime": 1777704071.2740974,
+    "ast_hash": "6c880382b9ab7f8d51ed1e0619bb4814",
+    "semantic_hash": "6c880382b9ab7f8d51ed1e0619bb4814"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/journal.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "70348d57dac6416b1c5f5fe8b97836f9",
+    "semantic_hash": "70348d57dac6416b1c5f5fe8b97836f9"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/runs/__init__.py": {
+    "mtime": 1777704071.2780974,
+    "ast_hash": "83a7cb1204109740d998ec695b7004c9",
+    "semantic_hash": "83a7cb1204109740d998ec695b7004c9"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/runs/manager.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "e406cd7146b98e3c8ea6cb40647aaa3c",
+    "semantic_hash": "e406cd7146b98e3c8ea6cb40647aaa3c"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/runs/naming.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "053acde395250686c75836659aceb098",
+    "semantic_hash": "053acde395250686c75836659aceb098"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/runs/schemas.py": {
+    "mtime": 1777704071.2780974,
+    "ast_hash": "0334eae3b937708347189d905b66ee7c",
+    "semantic_hash": "0334eae3b937708347189d905b66ee7c"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/runs/store/__init__.py": {
+    "mtime": 1777704071.2820973,
+    "ast_hash": "38342fd7dcb0078a6ec89045f147817d",
+    "semantic_hash": "38342fd7dcb0078a6ec89045f147817d"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/runs/store/base.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "3f95bfbac96cb32d599c8dc8611662db",
+    "semantic_hash": "3f95bfbac96cb32d599c8dc8611662db"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/runs/store/memory.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "3c5ae8003d0764d7f33a5764c8ade105",
+    "semantic_hash": "3c5ae8003d0764d7f33a5764c8ade105"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/runs/worker.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "1301d0e56fe1a0e5cbdb25c283688c94",
+    "semantic_hash": "1301d0e56fe1a0e5cbdb25c283688c94"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/serialization.py": {
+    "mtime": 1777704071.2820973,
+    "ast_hash": "b1933c08d2e81736c3e05001a4aaf2e8",
+    "semantic_hash": "b1933c08d2e81736c3e05001a4aaf2e8"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/store/__init__.py": {
+    "mtime": 1777704071.2820973,
+    "ast_hash": "1aec50c6648271d702d089fea468a101",
+    "semantic_hash": "1aec50c6648271d702d089fea468a101"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/store/_sqlite_utils.py": {
+    "mtime": 1777704071.2820973,
+    "ast_hash": "d885d6b913bccf4e84bd78cb6e3780e5",
+    "semantic_hash": "d885d6b913bccf4e84bd78cb6e3780e5"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/store/async_provider.py": {
+    "mtime": 1777704071.2820973,
+    "ast_hash": "6080cc367217fb2d634a243fa032c7f6",
+    "semantic_hash": "6080cc367217fb2d634a243fa032c7f6"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/store/provider.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "8bce2535305e2b78c3cae04777e0e34d",
+    "semantic_hash": "8bce2535305e2b78c3cae04777e0e34d"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/stream_bridge/__init__.py": {
+    "mtime": 1777704071.2820973,
+    "ast_hash": "d4377d317699415c99a9478c4ef93b6a",
+    "semantic_hash": "d4377d317699415c99a9478c4ef93b6a"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/stream_bridge/async_provider.py": {
+    "mtime": 1777704071.2820973,
+    "ast_hash": "0ebaadf65f4e0591bda5d3b8eb135dd9",
+    "semantic_hash": "0ebaadf65f4e0591bda5d3b8eb135dd9"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/stream_bridge/base.py": {
+    "mtime": 1777704071.2820973,
+    "ast_hash": "7e435776a0c5efba528c97518881d8cf",
+    "semantic_hash": "7e435776a0c5efba528c97518881d8cf"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/stream_bridge/memory.py": {
+    "mtime": 1777704071.2820973,
+    "ast_hash": "97371843f40fcc78ed077f534ea0f4e5",
+    "semantic_hash": "97371843f40fcc78ed077f534ea0f4e5"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/runtime/user_context.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "681a9e0a7c4217d364337fe6fd6760cf",
+    "semantic_hash": "681a9e0a7c4217d364337fe6fd6760cf"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/sandbox/__init__.py": {
+    "mtime": 1777704071.2820973,
+    "ast_hash": "01c4d7209dceb7ef1e01ab04f5aa3152",
+    "semantic_hash": "01c4d7209dceb7ef1e01ab04f5aa3152"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/sandbox/exceptions.py": {
+    "mtime": 1777704071.2820973,
+    "ast_hash": "863f2c89442143b83f4553e774ab0dd6",
+    "semantic_hash": "863f2c89442143b83f4553e774ab0dd6"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/sandbox/file_operation_lock.py": {
+    "mtime": 1777704071.2820973,
+    "ast_hash": "056453274f66ecb41525c54517487bb8",
+    "semantic_hash": "056453274f66ecb41525c54517487bb8"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/sandbox/local/__init__.py": {
+    "mtime": 1777704071.2860973,
+    "ast_hash": "4b5eb5e416fb8db5bbed18f41bc7b887",
+    "semantic_hash": "4b5eb5e416fb8db5bbed18f41bc7b887"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/sandbox/local/list_dir.py": {
+    "mtime": 1777704071.2860973,
+    "ast_hash": "ca88ac8c7a2930d507e82061338d6cc1",
+    "semantic_hash": "ca88ac8c7a2930d507e82061338d6cc1"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/sandbox/local/local_sandbox.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "49296f9f8cfaee30fb2dbf0d5b788a13",
+    "semantic_hash": "49296f9f8cfaee30fb2dbf0d5b788a13"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/sandbox/local/local_sandbox_provider.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "551ccdbf7135181cb55172945695bd84",
+    "semantic_hash": "551ccdbf7135181cb55172945695bd84"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/sandbox/middleware.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "37e6dec5f18d10af4e032b5da4cb5ecb",
+    "semantic_hash": "37e6dec5f18d10af4e032b5da4cb5ecb"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/sandbox/sandbox.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "c1e01c679788792f2495fc6e3c6efd4f",
+    "semantic_hash": "c1e01c679788792f2495fc6e3c6efd4f"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/sandbox/sandbox_provider.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "248f88f9af7b5b5a2dfa470fc2b86a18",
+    "semantic_hash": "248f88f9af7b5b5a2dfa470fc2b86a18"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/sandbox/search.py": {
+    "mtime": 1777704071.2860973,
+    "ast_hash": "23951822b6d545b8097099aadfcd4161",
+    "semantic_hash": "23951822b6d545b8097099aadfcd4161"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/sandbox/security.py": {
+    "mtime": 1777704071.2860973,
+    "ast_hash": "b0a050beb329b7a530d818b7cec1d270",
+    "semantic_hash": "b0a050beb329b7a530d818b7cec1d270"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/sandbox/tools.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "3c1b869b9e14f84b837e908e428f8155",
+    "semantic_hash": "3c1b869b9e14f84b837e908e428f8155"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/skills/__init__.py": {
+    "mtime": 1777704071.2860973,
+    "ast_hash": "c3b05cad9dedaf966e03e92fbf93fd5c",
+    "semantic_hash": "c3b05cad9dedaf966e03e92fbf93fd5c"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/skills/installer.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "e6b4037ecc39702b0963cb2b472f090d",
+    "semantic_hash": "e6b4037ecc39702b0963cb2b472f090d"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/skills/parser.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "adfcf35da1a9acae6e0146a81fbe9c5e",
+    "semantic_hash": "adfcf35da1a9acae6e0146a81fbe9c5e"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/skills/permissions.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "5c7c045566eb9ef9c7ab813e7e4830eb",
+    "semantic_hash": "5c7c045566eb9ef9c7ab813e7e4830eb"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/skills/security_scanner.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "77e6a5389ca7ea2889f3509b6d13b2b8",
+    "semantic_hash": "77e6a5389ca7ea2889f3509b6d13b2b8"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/skills/storage/__init__.py": {
+    "mtime": 1777704071.2860973,
+    "ast_hash": "3690d55b1dba3ccc213d86872397e8be",
+    "semantic_hash": "3690d55b1dba3ccc213d86872397e8be"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/skills/storage/local_skill_storage.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "ac34c63d10902eb9401695b95e00db0e",
+    "semantic_hash": "ac34c63d10902eb9401695b95e00db0e"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/skills/storage/skill_storage.py": {
+    "mtime": 1777704071.2860973,
+    "ast_hash": "46feaab5701350f111b5143a9da64129",
+    "semantic_hash": "46feaab5701350f111b5143a9da64129"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/skills/tool_policy.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "4e20ff0517b9ef005f2597c7ecf07d02",
+    "semantic_hash": "4e20ff0517b9ef005f2597c7ecf07d02"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/skills/types.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "6841fa2164bd2246f23f191096a32b4c",
+    "semantic_hash": "6841fa2164bd2246f23f191096a32b4c"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/skills/validation.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "6660a08a0a256c5ea2b5e90574041959",
+    "semantic_hash": "6660a08a0a256c5ea2b5e90574041959"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/subagents/__init__.py": {
+    "mtime": 1777704071.2860973,
+    "ast_hash": "1a49f9e74cdd10db72d73f47255650a4",
+    "semantic_hash": "1a49f9e74cdd10db72d73f47255650a4"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/subagents/builtins/__init__.py": {
+    "mtime": 1777704071.2860973,
+    "ast_hash": "7e40c8ec9f0a5720c52b894b12821385",
+    "semantic_hash": "7e40c8ec9f0a5720c52b894b12821385"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/subagents/builtins/bash_agent.py": {
+    "mtime": 1777704071.2860973,
+    "ast_hash": "3e7094e2158a690ff47b2fa696d4db7c",
+    "semantic_hash": "3e7094e2158a690ff47b2fa696d4db7c"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/subagents/builtins/general_purpose.py": {
+    "mtime": 1777704071.2860973,
+    "ast_hash": "2cb7bd55cc0d0389319d1d8504822890",
+    "semantic_hash": "2cb7bd55cc0d0389319d1d8504822890"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/subagents/config.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "534ef8001bdcb9d4175a394042468c58",
+    "semantic_hash": "534ef8001bdcb9d4175a394042468c58"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/subagents/executor.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "8bb666672c4fb3132b82dcfb1260b44d",
+    "semantic_hash": "8bb666672c4fb3132b82dcfb1260b44d"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/subagents/registry.py": {
+    "mtime": 1777704071.2900975,
+    "ast_hash": "4aadda41e59a88f830c6ce6aa8dd3a1e",
+    "semantic_hash": "4aadda41e59a88f830c6ce6aa8dd3a1e"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/tools/__init__.py": {
+    "mtime": 1777704071.2900975,
+    "ast_hash": "f37ea2a03da3060edb1d906f7e4b2826",
+    "semantic_hash": "f37ea2a03da3060edb1d906f7e4b2826"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/tools/builtins/__init__.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "e3825d371458f29a5b905a59844b7e65",
+    "semantic_hash": "e3825d371458f29a5b905a59844b7e65"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/tools/builtins/clarification_tool.py": {
+    "mtime": 1777704071.2900975,
+    "ast_hash": "2ed2054314222871c2f96c7ffcc317d6",
+    "semantic_hash": "2ed2054314222871c2f96c7ffcc317d6"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/tools/builtins/invoke_acp_agent_tool.py": {
+    "mtime": 1777704071.2900975,
+    "ast_hash": "def6492b72fd55fac6748f4987af03d6",
+    "semantic_hash": "def6492b72fd55fac6748f4987af03d6"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/tools/builtins/present_file_tool.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "fe3822a49a4d2653336023a7ff61cfcd",
+    "semantic_hash": "fe3822a49a4d2653336023a7ff61cfcd"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/tools/builtins/setup_agent_tool.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "a3b63b8aba26b9392b231671c376a04a",
+    "semantic_hash": "a3b63b8aba26b9392b231671c376a04a"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/tools/builtins/task_tool.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "dab1619d1d069996fa67e6c7938938b7",
+    "semantic_hash": "dab1619d1d069996fa67e6c7938938b7"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/tools/builtins/tool_search.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "0096ddc41924c4c887d4bb054d842eeb",
+    "semantic_hash": "0096ddc41924c4c887d4bb054d842eeb"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/tools/builtins/update_agent_tool.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "6860023b814a34e58d815851546a6979",
+    "semantic_hash": "6860023b814a34e58d815851546a6979"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/tools/builtins/view_image_tool.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "57a84590273556ecfe562f3c170415f6",
+    "semantic_hash": "57a84590273556ecfe562f3c170415f6"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/tools/mcp_metadata.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "3c373924c39ae73e87db5cb7f6f298cf",
+    "semantic_hash": "3c373924c39ae73e87db5cb7f6f298cf"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/tools/skill_manage_tool.py": {
+    "mtime": 1780665232.7424166,
+    "ast_hash": "42296b8d4250e9a4df5e074dda889fee",
+    "semantic_hash": "42296b8d4250e9a4df5e074dda889fee"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/tools/sync.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "397db47c26689e4c37443b5c55e3473e",
+    "semantic_hash": "397db47c26689e4c37443b5c55e3473e"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/tools/tools.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "90270ab4c059c0bf3bbb4b920e19601e",
+    "semantic_hash": "90270ab4c059c0bf3bbb4b920e19601e"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/tools/types.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "e5bb089337911ef8e5070a4245f458c1",
+    "semantic_hash": "e5bb089337911ef8e5070a4245f458c1"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/tracing/__init__.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "4de62b477b0db8dd03728bfa964e107c",
+    "semantic_hash": "4de62b477b0db8dd03728bfa964e107c"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/tracing/factory.py": {
+    "mtime": 1777704071.2900975,
+    "ast_hash": "082511e313123766f63ed1fc11d38d37",
+    "semantic_hash": "082511e313123766f63ed1fc11d38d37"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/tracing/metadata.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "22fd464e4d85252f990b46c07a9072f7",
+    "semantic_hash": "22fd464e4d85252f990b46c07a9072f7"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/uploads/__init__.py": {
+    "mtime": 1777704071.2900975,
+    "ast_hash": "830cc2d9bab6fbe1ed065497c4ad5069",
+    "semantic_hash": "830cc2d9bab6fbe1ed065497c4ad5069"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/uploads/manager.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "a473dac54e7880312399f59ee47fe658",
+    "semantic_hash": "a473dac54e7880312399f59ee47fe658"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/utils/file_conversion.py": {
+    "mtime": 1777704071.2900975,
+    "ast_hash": "efba7923ddda4dd7ec9227a452bd36f8",
+    "semantic_hash": "efba7923ddda4dd7ec9227a452bd36f8"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/utils/network.py": {
+    "mtime": 1777704071.2900975,
+    "ast_hash": "f2a91df1bb7738ce9c3f9c63933b4c1a",
+    "semantic_hash": "f2a91df1bb7738ce9c3f9c63933b4c1a"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/utils/readability.py": {
+    "mtime": 1777704071.2900975,
+    "ast_hash": "1d5941d3824f18c0261471b4c78a9e2e",
+    "semantic_hash": "1d5941d3824f18c0261471b4c78a9e2e"
+  },
+  "/home/glory/code/github/deer-flow/backend/packages/harness/deerflow/utils/time.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "bdadf17c6b6f6ee60be8704f04d0ad8f",
+    "semantic_hash": "bdadf17c6b6f6ee60be8704f04d0ad8f"
+  },
+  "/home/glory/code/github/deer-flow/backend/scripts/e2e_safety_termination_demo.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "efe589b11cdab2a1ebbf3c3f64a171fa",
+    "semantic_hash": "efe589b11cdab2a1ebbf3c3f64a171fa"
+  },
+  "/home/glory/code/github/deer-flow/backend/scripts/migrate_user_isolation.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "f48ce8467b1aa1e22016c9f6e85062ee",
+    "semantic_hash": "f48ce8467b1aa1e22016c9f6e85062ee"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/_agent_e2e_helpers.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "c6c71256410ae13ef276a90b2c07d94c",
+    "semantic_hash": "c6c71256410ae13ef276a90b2c07d94c"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/_router_auth_helpers.py": {
+    "mtime": 1777704071.2940974,
+    "ast_hash": "bfabae01d5b3f6a9b3572a60697ec659",
+    "semantic_hash": "bfabae01d5b3f6a9b3572a60697ec659"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/_run_message_pagination_helpers.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "e6f888be2cc8d07db6479be8772415cc",
+    "semantic_hash": "e6f888be2cc8d07db6479be8772415cc"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/blocking_io/__init__.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/blocking_io/conftest.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "73ba3de157fb5b989f89444032960ece",
+    "semantic_hash": "73ba3de157fb5b989f89444032960ece"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/blocking_io/test_gate_smoke.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "563e4d55430f30407822134e827657ef",
+    "semantic_hash": "563e4d55430f30407822134e827657ef"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/blocking_io/test_jsonl_run_event_store.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "06f410b992eb26d97923e055eb40e981",
+    "semantic_hash": "06f410b992eb26d97923e055eb40e981"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/blocking_io/test_skills_load.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "a7246b18a1a58538f635c031c57a64d5",
+    "semantic_hash": "a7246b18a1a58538f635c031c57a64d5"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/blocking_io/test_sqlite_lifespan.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "e56e661017d7133f915158e064681fd8",
+    "semantic_hash": "e56e661017d7133f915158e064681fd8"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/blocking_io/test_uploads_middleware.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "6c1d1da2a3743a71813677c0ad8bab04",
+    "semantic_hash": "6c1d1da2a3743a71813677c0ad8bab04"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/conftest.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "e5ef8d16581cc9c9eae04a063a8b8853",
+    "semantic_hash": "e5ef8d16581cc9c9eae04a063a8b8853"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/support/__init__.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "9695e12a0624a99b5afd694a754f515f",
+    "semantic_hash": "9695e12a0624a99b5afd694a754f515f"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/support/detectors/__init__.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "caab3e7e0d39661d32cf2a06e0e39f76",
+    "semantic_hash": "caab3e7e0d39661d32cf2a06e0e39f76"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/support/detectors/blocking_io_runtime.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "f37027a806030186a4fd5c2e77e683de",
+    "semantic_hash": "f37027a806030186a4fd5c2e77e683de"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/support/detectors/blocking_io_static.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "ecfbacc729102b79c2de9d2ab9c8e359",
+    "semantic_hash": "ecfbacc729102b79c2de9d2ab9c8e359"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/support/detectors/thread_boundaries.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "a5e9d13ac2dc176037d7c7d06fe2fe79",
+    "semantic_hash": "a5e9d13ac2dc176037d7c7d06fe2fe79"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_acp_config.py": {
+    "mtime": 1777704071.2940974,
+    "ast_hash": "fc5bb992ca33b49f6dfd52a9fb0070c8",
+    "semantic_hash": "fc5bb992ca33b49f6dfd52a9fb0070c8"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_aio_sandbox.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "67ae71d7e55dfd54bb0abb8c4c7ca825",
+    "semantic_hash": "67ae71d7e55dfd54bb0abb8c4c7ca825"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_aio_sandbox_local_backend.py": {
+    "mtime": 1777704071.2940974,
+    "ast_hash": "62525d89bb7854a6af4620bb516d1e87",
+    "semantic_hash": "62525d89bb7854a6af4620bb516d1e87"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_aio_sandbox_provider.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "2f8934be92183e395d70deef7ac475d7",
+    "semantic_hash": "2f8934be92183e395d70deef7ac475d7"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_aio_sandbox_readiness.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "1741e9dfd5442be1421807232468210c",
+    "semantic_hash": "1741e9dfd5442be1421807232468210c"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_app_config_reload.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "b2cd95a8cb70a9ea64b32f53dd49d360",
+    "semantic_hash": "b2cd95a8cb70a9ea64b32f53dd49d360"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_artifacts_router.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "7d7a0646ea10b20ba3462bf100c9426b",
+    "semantic_hash": "7d7a0646ea10b20ba3462bf100c9426b"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_assistant_payload_replay.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "16931aa807c7420c2ff3dffb7148e26a",
+    "semantic_hash": "16931aa807c7420c2ff3dffb7148e26a"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_auth.py": {
+    "mtime": 1777704071.2940974,
+    "ast_hash": "1cdbd49227d415aa051364ec7adb4b86",
+    "semantic_hash": "1cdbd49227d415aa051364ec7adb4b86"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_auth_config.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "789e373e293aea1b006885adc12232e4",
+    "semantic_hash": "789e373e293aea1b006885adc12232e4"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_auth_errors.py": {
+    "mtime": 1777704071.2940974,
+    "ast_hash": "2b1dd24a6356ec4400b31f667ec69e3e",
+    "semantic_hash": "2b1dd24a6356ec4400b31f667ec69e3e"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_auth_middleware.py": {
+    "mtime": 1777704071.2940974,
+    "ast_hash": "26df194121d39ad980c187299fbba84d",
+    "semantic_hash": "26df194121d39ad980c187299fbba84d"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_auth_type_system.py": {
+    "mtime": 1777704071.2940974,
+    "ast_hash": "73e982216e5e2b9be5f1677d4eb618bc",
+    "semantic_hash": "73e982216e5e2b9be5f1677d4eb618bc"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_cancel_run_idempotent.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "4b00786e46169ce24152860b56f6ca7c",
+    "semantic_hash": "4b00786e46169ce24152860b56f6ca7c"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_channel_file_attachments.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "e797773ab08278afc65d871f971cd59c",
+    "semantic_hash": "e797773ab08278afc65d871f971cd59c"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_channels.py": {
+    "mtime": 1780665232.7464166,
+    "ast_hash": "b57a274c7c8b7aadb66b8264c65998f0",
+    "semantic_hash": "b57a274c7c8b7aadb66b8264c65998f0"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_check_script.py": {
+    "mtime": 1777704071.2940974,
+    "ast_hash": "231abcdf5138e11b116779cd7a1b38f3",
+    "semantic_hash": "231abcdf5138e11b116779cd7a1b38f3"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_checkpointer.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "2bdaadb9c74697ae1e3add0acc511988",
+    "semantic_hash": "2bdaadb9c74697ae1e3add0acc511988"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_checkpointer_none_fix.py": {
+    "mtime": 1777704071.2980974,
+    "ast_hash": "bdf33ba3af8dc9635fddd4fd1e2ae715",
+    "semantic_hash": "bdf33ba3af8dc9635fddd4fd1e2ae715"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_clarification_middleware.py": {
+    "mtime": 1777704071.2980974,
+    "ast_hash": "060bca59ca54dfc89bdb8e371fd54857",
+    "semantic_hash": "060bca59ca54dfc89bdb8e371fd54857"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_claude_provider_oauth_billing.py": {
+    "mtime": 1777704071.2980974,
+    "ast_hash": "0da4d1ee13065f24ae6a36ae32c559f4",
+    "semantic_hash": "0da4d1ee13065f24ae6a36ae32c559f4"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_claude_provider_prompt_caching.py": {
+    "mtime": 1777704071.2980974,
+    "ast_hash": "4423adebc81f07fc858702b2379c7e9b",
+    "semantic_hash": "4423adebc81f07fc858702b2379c7e9b"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_cli_auth_providers.py": {
+    "mtime": 1777704071.2980974,
+    "ast_hash": "0b0a3904cd386027a7b1f06dcacb1bf3",
+    "semantic_hash": "0b0a3904cd386027a7b1f06dcacb1bf3"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_client.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "efae602a956d369ffa112fb3c3bf8a3c",
+    "semantic_hash": "efae602a956d369ffa112fb3c3bf8a3c"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_client_e2e.py": {
+    "mtime": 1777704071.2980974,
+    "ast_hash": "3770e8e3aa6a0633acf2d5c44c309464",
+    "semantic_hash": "3770e8e3aa6a0633acf2d5c44c309464"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_client_langfuse_metadata.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "07539430d09444ac3932a15977a3fb88",
+    "semantic_hash": "07539430d09444ac3932a15977a3fb88"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_client_live.py": {
+    "mtime": 1777704071.2980974,
+    "ast_hash": "66dbed0f1cb3052675b790881935d13d",
+    "semantic_hash": "66dbed0f1cb3052675b790881935d13d"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_client_message_serialization.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "1943a5392f2abc36eeb56f6a95a941ed",
+    "semantic_hash": "1943a5392f2abc36eeb56f6a95a941ed"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_codex_provider.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "0d60d0df60f5ca787cdf9e35fc77ae5e",
+    "semantic_hash": "0d60d0df60f5ca787cdf9e35fc77ae5e"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_config_version.py": {
+    "mtime": 1777704071.2980974,
+    "ast_hash": "6a331fd2a3672a61fa42f5aca616ad56",
+    "semantic_hash": "6a331fd2a3672a61fa42f5aca616ad56"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_converters.py": {
+    "mtime": 1777704071.2980974,
+    "ast_hash": "72d943e6befeae649a0df87bcae1f927",
+    "semantic_hash": "72d943e6befeae649a0df87bcae1f927"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_create_deerflow_agent.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "4ab62a72251c23b66635df2ea3637256",
+    "semantic_hash": "4ab62a72251c23b66635df2ea3637256"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_create_deerflow_agent_live.py": {
+    "mtime": 1777704071.2980974,
+    "ast_hash": "2f1152b7a89db8693abd3140f06b0fae",
+    "semantic_hash": "2f1152b7a89db8693abd3140f06b0fae"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_credential_loader.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "642f2300969490679193dcf731c200b4",
+    "semantic_hash": "642f2300969490679193dcf731c200b4"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_csrf_middleware.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "6f419df755d6ae1d7020b2834e34040b",
+    "semantic_hash": "6f419df755d6ae1d7020b2834e34040b"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_custom_agent.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "8298e70e4d0118ecd4951f174645182e",
+    "semantic_hash": "8298e70e4d0118ecd4951f174645182e"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_dangling_tool_call_middleware.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "79380e37a227b8b3361c78ad6ff73c44",
+    "semantic_hash": "79380e37a227b8b3361c78ad6ff73c44"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_deferred_catalog.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "ffa908796c6f559a4bd0b00d80a83d8f",
+    "semantic_hash": "ffa908796c6f559a4bd0b00d80a83d8f"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_deferred_filter_middleware.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "b5d9fb01cd603effd91fa1b3d3588df1",
+    "semantic_hash": "b5d9fb01cd603effd91fa1b3d3588df1"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_deferred_promotion_integration.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "0c51fa5fc023b8a7694714ae0e607b4b",
+    "semantic_hash": "0c51fa5fc023b8a7694714ae0e607b4b"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_deferred_setup.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "9734b8b16861c10c89aaf66b01b19371",
+    "semantic_hash": "9734b8b16861c10c89aaf66b01b19371"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_deferred_tool_crosscontext.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "f51038da5b716a10ee98459b27091be2",
+    "semantic_hash": "f51038da5b716a10ee98459b27091be2"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_deferred_tool_promotion_real_llm.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "0cebbcf3ab03dcb96cedee36970d066d",
+    "semantic_hash": "0cebbcf3ab03dcb96cedee36970d066d"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_detect_blocking_io_static.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "7ce3928e431750687d66199fb88e17c2",
+    "semantic_hash": "7ce3928e431750687d66199fb88e17c2"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_detect_thread_boundaries.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "4b616d69267d841b6ac8cc159c3e6400",
+    "semantic_hash": "4b616d69267d841b6ac8cc159c3e6400"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_detect_uv_extras.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "71147022ee4510eb96d5e42e613f7282",
+    "semantic_hash": "71147022ee4510eb96d5e42e613f7282"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_dev_entrypoint.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "8eb006b7b5079b14221b4267d8b99c60",
+    "semantic_hash": "8eb006b7b5079b14221b4267d8b99c60"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_dingtalk_channel.py": {
+    "mtime": 1777704071.2980974,
+    "ast_hash": "9baa6a99c3e4a19c1888da45d8e6abcf",
+    "semantic_hash": "9baa6a99c3e4a19c1888da45d8e6abcf"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_discord_channel.py": {
+    "mtime": 1777704071.3020973,
+    "ast_hash": "9e0bb198e7e78cdde1b07ea6a03dbd07",
+    "semantic_hash": "9e0bb198e7e78cdde1b07ea6a03dbd07"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_docker_sandbox_mode_detection.py": {
+    "mtime": 1777704071.3020973,
+    "ast_hash": "4839afae35e20ac450f2f906c4a2224e",
+    "semantic_hash": "4839afae35e20ac450f2f906c4a2224e"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_doctor.py": {
+    "mtime": 1777704071.3020973,
+    "ast_hash": "79af344cb8d9c47528c6316d3d9de9d3",
+    "semantic_hash": "79af344cb8d9c47528c6316d3d9de9d3"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_dynamic_context_middleware.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "fdacd7d285943c89a29c36def417c46c",
+    "semantic_hash": "fdacd7d285943c89a29c36def417c46c"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_ensure_admin.py": {
+    "mtime": 1777704071.3020973,
+    "ast_hash": "47dc4dc035ec9c36634782d2962d18de",
+    "semantic_hash": "47dc4dc035ec9c36634782d2962d18de"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_exa_tools.py": {
+    "mtime": 1777704071.3020973,
+    "ast_hash": "e028f161a2b9dd3193804f9503489cd9",
+    "semantic_hash": "e028f161a2b9dd3193804f9503489cd9"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_feedback.py": {
+    "mtime": 1777704071.3020973,
+    "ast_hash": "672604b972196511c0cd0b5ed81a4a5a",
+    "semantic_hash": "672604b972196511c0cd0b5ed81a4a5a"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_feishu_parser.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "a2762f3270d891209a577fa85203ecc4",
+    "semantic_hash": "a2762f3270d891209a577fa85203ecc4"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_file_conversion.py": {
+    "mtime": 1777704071.3020973,
+    "ast_hash": "8745349c670404ee14f74d6631b3bbb5",
+    "semantic_hash": "8745349c670404ee14f74d6631b3bbb5"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_firecrawl_tools.py": {
+    "mtime": 1777704071.3020973,
+    "ast_hash": "6999abe434ff96b6667e89517b0f4fcb",
+    "semantic_hash": "6999abe434ff96b6667e89517b0f4fcb"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_gateway_config_freshness.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "c67d287b8c8ddc3448f26699cc0169a3",
+    "semantic_hash": "c67d287b8c8ddc3448f26699cc0169a3"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_gateway_docs_toggle.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "bff67fe7b365703382989d21b153d356",
+    "semantic_hash": "bff67fe7b365703382989d21b153d356"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_gateway_lifespan_shutdown.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "e2cac3ff03eecf6ae30e2faaf9723d46",
+    "semantic_hash": "e2cac3ff03eecf6ae30e2faaf9723d46"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_gateway_run_recovery.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "d6e0e81b9cc796f73c7f695711cc71d2",
+    "semantic_hash": "d6e0e81b9cc796f73c7f695711cc71d2"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_gateway_runtime_cleanup.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "5874d2a12fb319774cdb2fa41cac9302",
+    "semantic_hash": "5874d2a12fb319774cdb2fa41cac9302"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_gateway_services.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "a02df3ddbf503539a270ed91465b0035",
+    "semantic_hash": "a02df3ddbf503539a270ed91465b0035"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_guardrail_middleware.py": {
+    "mtime": 1777704071.3020973,
+    "ast_hash": "519f745b580d35ccd614ccf12c55cb45",
+    "semantic_hash": "519f745b580d35ccd614ccf12c55cb45"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_harness_boundary.py": {
+    "mtime": 1777704071.3020973,
+    "ast_hash": "4376bb23a75d687f38b91f9cee689b43",
+    "semantic_hash": "4376bb23a75d687f38b91f9cee689b43"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_infoquest_client.py": {
+    "mtime": 1777704071.3020973,
+    "ast_hash": "7b0f9351db211b5ba447842521c9ab78",
+    "semantic_hash": "7b0f9351db211b5ba447842521c9ab78"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_initialize_admin.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "d67f1ee231d1d01ff9b10eda0ca08f46",
+    "semantic_hash": "d67f1ee231d1d01ff9b10eda0ca08f46"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_internal_auth.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "e95892e337cf12a08bee169ba50c2a5a",
+    "semantic_hash": "e95892e337cf12a08bee169ba50c2a5a"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_invoke_acp_agent_tool.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "de969ea46f18e43c772ec6e81e86ea05",
+    "semantic_hash": "de969ea46f18e43c772ec6e81e86ea05"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_jina_client.py": {
+    "mtime": 1777704071.3020973,
+    "ast_hash": "a8f85d43465164016dd6ffcc6378f5e7",
+    "semantic_hash": "a8f85d43465164016dd6ffcc6378f5e7"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_jsonl_event_store_async_io.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "23c2c8c29a0abd8305a69409920c177d",
+    "semantic_hash": "23c2c8c29a0abd8305a69409920c177d"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_langgraph_auth.py": {
+    "mtime": 1777704071.3020973,
+    "ast_hash": "bce9b53e27a8612e842f0ef2bda27348",
+    "semantic_hash": "bce9b53e27a8612e842f0ef2bda27348"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_lead_agent_model_resolution.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "a1e3d4fc124e6124df78df379cabb815",
+    "semantic_hash": "a1e3d4fc124e6124df78df379cabb815"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_lead_agent_prompt.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "774e47c3e9bb8665f993a1251440fdde",
+    "semantic_hash": "774e47c3e9bb8665f993a1251440fdde"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_lead_agent_skills.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "655da5a0e3cf3e2f8f51fa3a1c2305a6",
+    "semantic_hash": "655da5a0e3cf3e2f8f51fa3a1c2305a6"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_llm_error_handling_middleware.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "1787e70cc23e3a416c25619c77ed523f",
+    "semantic_hash": "1787e70cc23e3a416c25619c77ed523f"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_local_bash_tool_loading.py": {
+    "mtime": 1777704071.3020973,
+    "ast_hash": "fbdc042d305dcabcd8a22f6358a90979",
+    "semantic_hash": "fbdc042d305dcabcd8a22f6358a90979"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_local_sandbox_encoding.py": {
+    "mtime": 1780665232.7504165,
+    "ast_hash": "0acfe886aa4ac156d379ba8b4f7c8c3c",
+    "semantic_hash": "0acfe886aa4ac156d379ba8b4f7c8c3c"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_local_sandbox_provider_mounts.py": {
+    "mtime": 1780665232.7544165,
+    "ast_hash": "25ac587005f8b268769aedfc744ad881",
+    "semantic_hash": "25ac587005f8b268769aedfc744ad881"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_local_sandbox_virtual_path_contract.py": {
+    "mtime": 1780665232.7544165,
+    "ast_hash": "db3ed003f2142f7d629d561f1333a3ce",
+    "semantic_hash": "db3ed003f2142f7d629d561f1333a3ce"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_local_skill_storage_write.py": {
+    "mtime": 1780665232.7544165,
+    "ast_hash": "99d92cf95a2bd8098268dbb494128625",
+    "semantic_hash": "99d92cf95a2bd8098268dbb494128625"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_logging_level_from_config.py": {
+    "mtime": 1777704071.3020973,
+    "ast_hash": "5eff4c2bee189f4d33c2ec44cb723448",
+    "semantic_hash": "5eff4c2bee189f4d33c2ec44cb723448"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_loop_detection_config.py": {
+    "mtime": 1780665232.7544165,
+    "ast_hash": "4f7401bf6b82c2035d233f93a9f5d622",
+    "semantic_hash": "4f7401bf6b82c2035d233f93a9f5d622"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_loop_detection_middleware.py": {
+    "mtime": 1780665232.7544165,
+    "ast_hash": "452e530338e45592bd5cb27837373ecf",
+    "semantic_hash": "452e530338e45592bd5cb27837373ecf"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_mcp_client_config.py": {
+    "mtime": 1780665232.7544165,
+    "ast_hash": "0b4b6934915a479564f4549fb7c1aa00",
+    "semantic_hash": "0b4b6934915a479564f4549fb7c1aa00"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_mcp_custom_interceptors.py": {
+    "mtime": 1777704071.3060975,
+    "ast_hash": "d307176f3e14d10d4f716a26916bbc8f",
+    "semantic_hash": "d307176f3e14d10d4f716a26916bbc8f"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_mcp_oauth.py": {
+    "mtime": 1777704071.3060975,
+    "ast_hash": "f6cdc0af6ccf4d2500e4b7467d400e42",
+    "semantic_hash": "f6cdc0af6ccf4d2500e4b7467d400e42"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_mcp_session_pool.py": {
+    "mtime": 1780665232.7544165,
+    "ast_hash": "30809efebbfc51880b8f4c925e270985",
+    "semantic_hash": "30809efebbfc51880b8f4c925e270985"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_mcp_sync_wrapper.py": {
+    "mtime": 1780665232.7544165,
+    "ast_hash": "d3f4cb45169533e9ac4504a9e0c095df",
+    "semantic_hash": "d3f4cb45169533e9ac4504a9e0c095df"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_memory_prompt_injection.py": {
+    "mtime": 1777704071.3060975,
+    "ast_hash": "9eaff24cec393b2e9d98155d9b8a2a96",
+    "semantic_hash": "9eaff24cec393b2e9d98155d9b8a2a96"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_memory_queue.py": {
+    "mtime": 1780665232.7544165,
+    "ast_hash": "03268e94b636aec1ef4cf58af2f5ea04",
+    "semantic_hash": "03268e94b636aec1ef4cf58af2f5ea04"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_memory_queue_user_isolation.py": {
+    "mtime": 1780665232.7544165,
+    "ast_hash": "10730a1d27a1a31f5a99a15b152b2e6e",
+    "semantic_hash": "10730a1d27a1a31f5a99a15b152b2e6e"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_memory_router.py": {
+    "mtime": 1777704071.3060975,
+    "ast_hash": "cb4fcb5239562155ba137d486dacf6ed",
+    "semantic_hash": "cb4fcb5239562155ba137d486dacf6ed"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_memory_storage.py": {
+    "mtime": 1777704071.3060975,
+    "ast_hash": "e0bef8d5e21b4c0b9b46ea616176b317",
+    "semantic_hash": "e0bef8d5e21b4c0b9b46ea616176b317"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_memory_storage_user_isolation.py": {
+    "mtime": 1777704071.3060975,
+    "ast_hash": "edc9e9837493a3af6b9aebbf7ae66d8c",
+    "semantic_hash": "edc9e9837493a3af6b9aebbf7ae66d8c"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_memory_thread_meta_isolation.py": {
+    "mtime": 1777704071.3060975,
+    "ast_hash": "acb049f49eb89c83da81c0e3f8bdc0ce",
+    "semantic_hash": "acb049f49eb89c83da81c0e3f8bdc0ce"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_memory_updater.py": {
+    "mtime": 1780665232.7544165,
+    "ast_hash": "5bc0ae64cc27d712803d70f3bbdb536c",
+    "semantic_hash": "5bc0ae64cc27d712803d70f3bbdb536c"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_memory_updater_user_isolation.py": {
+    "mtime": 1777704071.3060975,
+    "ast_hash": "2a966c24c0b2b935df0b8e51ee2256f3",
+    "semantic_hash": "2a966c24c0b2b935df0b8e51ee2256f3"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_memory_upload_filtering.py": {
+    "mtime": 1777704071.3060975,
+    "ast_hash": "7960753f9d6557f79df4712c57d50712",
+    "semantic_hash": "7960753f9d6557f79df4712c57d50712"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_migration_user_isolation.py": {
+    "mtime": 1780665232.7544165,
+    "ast_hash": "e8e9a1151b546cb5cd40a0d928db81b2",
+    "semantic_hash": "e8e9a1151b546cb5cd40a0d928db81b2"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_mindie_provider.py": {
+    "mtime": 1780665232.7544165,
+    "ast_hash": "3533e34a04497f21875cb62b92950944",
+    "semantic_hash": "3533e34a04497f21875cb62b92950944"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_model_config.py": {
+    "mtime": 1777704071.3060975,
+    "ast_hash": "e620af9641b2b227a696016d889ec3ac",
+    "semantic_hash": "e620af9641b2b227a696016d889ec3ac"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_model_factory.py": {
+    "mtime": 1780665232.7544165,
+    "ast_hash": "8f1f30be985813d89fa2e750cceb184f",
+    "semantic_hash": "8f1f30be985813d89fa2e750cceb184f"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_openapi_operation_ids.py": {
+    "mtime": 1780665232.7544165,
+    "ast_hash": "df0bfa147f528a0e523258f5cb6d1cd0",
+    "semantic_hash": "df0bfa147f528a0e523258f5cb6d1cd0"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_owner_isolation.py": {
+    "mtime": 1777704071.3060975,
+    "ast_hash": "5d7d012b078e89f67506ebd1e46f7b6b",
+    "semantic_hash": "5d7d012b078e89f67506ebd1e46f7b6b"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_patched_deepseek.py": {
+    "mtime": 1777704071.3060975,
+    "ast_hash": "0605d604329ece88555877ee17173579",
+    "semantic_hash": "0605d604329ece88555877ee17173579"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_patched_mimo.py": {
+    "mtime": 1780665232.7544165,
+    "ast_hash": "9628732543395f23dca25a3b9bb57116",
+    "semantic_hash": "9628732543395f23dca25a3b9bb57116"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_patched_minimax.py": {
+    "mtime": 1780665232.7544165,
+    "ast_hash": "a15b367a697a3452dccab31a74239ed4",
+    "semantic_hash": "a15b367a697a3452dccab31a74239ed4"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_patched_openai.py": {
+    "mtime": 1777704071.3060975,
+    "ast_hash": "535fd7392aee2928a0b80a155e2f7a0d",
+    "semantic_hash": "535fd7392aee2928a0b80a155e2f7a0d"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_paths_user_isolation.py": {
+    "mtime": 1780665232.7544165,
+    "ast_hash": "25702acec0cf38b2a22706d76c34f489",
+    "semantic_hash": "25702acec0cf38b2a22706d76c34f489"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_persistence_scaffold.py": {
+    "mtime": 1780665232.7544165,
+    "ast_hash": "84f49ca6c73439a5a545070a8910e18c",
+    "semantic_hash": "84f49ca6c73439a5a545070a8910e18c"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_persistence_timezone.py": {
+    "mtime": 1780665232.7544165,
+    "ast_hash": "381be4a06f397832efce359488bba34e",
+    "semantic_hash": "381be4a06f397832efce359488bba34e"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_present_file_tool_core_logic.py": {
+    "mtime": 1777704071.3060975,
+    "ast_hash": "a68ca321cb10f8d6812f15c49b79d44d",
+    "semantic_hash": "a68ca321cb10f8d6812f15c49b79d44d"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_provisioner_kubeconfig.py": {
+    "mtime": 1777704071.3060975,
+    "ast_hash": "5d9d76525ce1f67733013f65ae3acefb",
+    "semantic_hash": "5d9d76525ce1f67733013f65ae3acefb"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_provisioner_pvc_volumes.py": {
+    "mtime": 1780665232.7544165,
+    "ast_hash": "1fc354db5590feff132591314d871434",
+    "semantic_hash": "1fc354db5590feff132591314d871434"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_readability.py": {
+    "mtime": 1777704071.3060975,
+    "ast_hash": "92345cae11935e7ebe094ee29ab8220a",
+    "semantic_hash": "92345cae11935e7ebe094ee29ab8220a"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_reflection_resolvers.py": {
+    "mtime": 1777704071.3060975,
+    "ast_hash": "1cb18a7f37bd5a1fab05073724f23757",
+    "semantic_hash": "1cb18a7f37bd5a1fab05073724f23757"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_remote_sandbox_backend.py": {
+    "mtime": 1780665232.7544165,
+    "ast_hash": "884f3e0c8b83f086d7e80e0804d81ab9",
+    "semantic_hash": "884f3e0c8b83f086d7e80e0804d81ab9"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_run_event_store.py": {
+    "mtime": 1780665232.7544165,
+    "ast_hash": "c1326613103bef2123d3af51b7c6252f",
+    "semantic_hash": "c1326613103bef2123d3af51b7c6252f"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_run_event_store_pagination.py": {
+    "mtime": 1777704071.3060975,
+    "ast_hash": "7b52c8a9b4d3ee2b61b92b25f5f217f2",
+    "semantic_hash": "7b52c8a9b4d3ee2b61b92b25f5f217f2"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_run_journal.py": {
+    "mtime": 1780665232.7544165,
+    "ast_hash": "11eab0c16aafca194181f1df9ae12dfd",
+    "semantic_hash": "11eab0c16aafca194181f1df9ae12dfd"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_run_manager.py": {
+    "mtime": 1780665232.7544165,
+    "ast_hash": "bba566a70996f0db0d858f0a768e2d71",
+    "semantic_hash": "bba566a70996f0db0d858f0a768e2d71"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_run_naming.py": {
+    "mtime": 1780665232.7544165,
+    "ast_hash": "330fac3b50bcff89cddec4dd881054b9",
+    "semantic_hash": "330fac3b50bcff89cddec4dd881054b9"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_run_repository.py": {
+    "mtime": 1780665232.7544165,
+    "ast_hash": "cdbcbcfbff466d12a78a65b38d1732ad",
+    "semantic_hash": "cdbcbcfbff466d12a78a65b38d1732ad"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_run_worker_rollback.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "247e3d244aebcac782e73b7c399d9ecd",
+    "semantic_hash": "247e3d244aebcac782e73b7c399d9ecd"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_runs_api_endpoints.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "72b7acb9115b72009c9590ab75d4a357",
+    "semantic_hash": "72b7acb9115b72009c9590ab75d4a357"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_runtime_lifecycle_e2e.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "0c5ddb96693cf383db73dbabb6be8ba4",
+    "semantic_hash": "0c5ddb96693cf383db73dbabb6be8ba4"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_runtime_paths.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "daadf21c9009a6f6c343c17101227064",
+    "semantic_hash": "daadf21c9009a6f6c343c17101227064"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_safety_finish_reason_graph_integration.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "06851094e444c9193c12608000460c48",
+    "semantic_hash": "06851094e444c9193c12608000460c48"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_safety_finish_reason_middleware.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "3ad2d5e0b6ddaeab1eb3d794554d89e8",
+    "semantic_hash": "3ad2d5e0b6ddaeab1eb3d794554d89e8"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_safety_termination_detectors.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "a5ff658796e00df5530be8055a2ed666",
+    "semantic_hash": "a5ff658796e00df5530be8055a2ed666"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_sandbox_audit_middleware.py": {
+    "mtime": 1777704071.3100975,
+    "ast_hash": "5d546501f2f11edc0eb91c4a30afbb5e",
+    "semantic_hash": "5d546501f2f11edc0eb91c4a30afbb5e"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_sandbox_memory_profile_script.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "b86b43fa5a52e1334a54eb1546102565",
+    "semantic_hash": "b86b43fa5a52e1334a54eb1546102565"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_sandbox_middleware.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "f34876782b6bcfdec07804fdd4f7526c",
+    "semantic_hash": "f34876782b6bcfdec07804fdd4f7526c"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_sandbox_orphan_reconciliation.py": {
+    "mtime": 1777704071.3100975,
+    "ast_hash": "7e69646f930b6a29d30ba53ef362b988",
+    "semantic_hash": "7e69646f930b6a29d30ba53ef362b988"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_sandbox_orphan_reconciliation_e2e.py": {
+    "mtime": 1777704071.3100975,
+    "ast_hash": "84d927ce2795e08f583a2286ef2a7b74",
+    "semantic_hash": "84d927ce2795e08f583a2286ef2a7b74"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_sandbox_search_tools.py": {
+    "mtime": 1777704071.3100975,
+    "ast_hash": "659cbca3b276367936c7743fac6ba400",
+    "semantic_hash": "659cbca3b276367936c7743fac6ba400"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_sandbox_tools_security.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "9fd029cccced950143145d2e939bd681",
+    "semantic_hash": "9fd029cccced950143145d2e939bd681"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_security_scanner.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "c469d7bc0e5fc0cacb0ddd7d0547a7e8",
+    "semantic_hash": "c469d7bc0e5fc0cacb0ddd7d0547a7e8"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_serialization.py": {
+    "mtime": 1777704071.3100975,
+    "ast_hash": "49343f6926d6c8a07d5d5d5049c7c25b",
+    "semantic_hash": "49343f6926d6c8a07d5d5d5049c7c25b"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_serialize_message_content.py": {
+    "mtime": 1777704071.3100975,
+    "ast_hash": "81e87cf1be1fc0a028f2867896300d5b",
+    "semantic_hash": "81e87cf1be1fc0a028f2867896300d5b"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_serper_tools.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "1450d04666120a94d1586acf6ddd03c2",
+    "semantic_hash": "1450d04666120a94d1586acf6ddd03c2"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_setup_agent_e2e_user_isolation.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "93a502eb2a9442dbf661b14469f8d9ed",
+    "semantic_hash": "93a502eb2a9442dbf661b14469f8d9ed"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_setup_agent_http_e2e_real_server.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "ee544cd670093cc3f203e6c61c95cd23",
+    "semantic_hash": "ee544cd670093cc3f203e6c61c95cd23"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_setup_agent_tool.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "920257b71e9d3a66a004378d6133fb27",
+    "semantic_hash": "920257b71e9d3a66a004378d6133fb27"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_setup_wizard.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "b6a1006ee36acf7c9c52dc1106e57813",
+    "semantic_hash": "b6a1006ee36acf7c9c52dc1106e57813"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_skill_manage_tool.py": {
+    "mtime": 1777704071.3100975,
+    "ast_hash": "9e43938ea69e811e99ee0d28f23779a5",
+    "semantic_hash": "9e43938ea69e811e99ee0d28f23779a5"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_skill_permissions.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "82bcbfdea5612953dff8f1ef20473d70",
+    "semantic_hash": "82bcbfdea5612953dff8f1ef20473d70"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_skills_archive_root.py": {
+    "mtime": 1777704071.3100975,
+    "ast_hash": "db097265ed3940f412b21669f010ed95",
+    "semantic_hash": "db097265ed3940f412b21669f010ed95"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_skills_bundled.py": {
+    "mtime": 1777704071.3100975,
+    "ast_hash": "56200a46d6db478c7e8db7df18ae351e",
+    "semantic_hash": "56200a46d6db478c7e8db7df18ae351e"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_skills_custom_router.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "1f1d6e52f3e21659d515ff819fe673bc",
+    "semantic_hash": "1f1d6e52f3e21659d515ff819fe673bc"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_skills_installer.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "bb6778cda12cd806194df0dc07653291",
+    "semantic_hash": "bb6778cda12cd806194df0dc07653291"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_skills_loader.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "b81e1f3c594191ed2e4589187d4a0342",
+    "semantic_hash": "b81e1f3c594191ed2e4589187d4a0342"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_skills_parser.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "882bf64444c264f7262e9353249d5bc1",
+    "semantic_hash": "882bf64444c264f7262e9353249d5bc1"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_skills_validation.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "8d1c8d94b07ec84dc288369f7eb8c571",
+    "semantic_hash": "8d1c8d94b07ec84dc288369f7eb8c571"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_sse_format.py": {
+    "mtime": 1777704071.3140974,
+    "ast_hash": "e10e987b3d132cc807085ae4b31d9e6e",
+    "semantic_hash": "e10e987b3d132cc807085ae4b31d9e6e"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_stream_bridge.py": {
+    "mtime": 1777704071.3140974,
+    "ast_hash": "7afadcbb594db90533b80b60b7bed435",
+    "semantic_hash": "7afadcbb594db90533b80b60b7bed435"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_subagent_executor.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "60539d640660201047fbd640ade6ec87",
+    "semantic_hash": "60539d640660201047fbd640ade6ec87"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_subagent_limit_middleware.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "0ea4ec37b6d10b5d533defac70534513",
+    "semantic_hash": "0ea4ec37b6d10b5d533defac70534513"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_subagent_prompt_security.py": {
+    "mtime": 1777704071.3140974,
+    "ast_hash": "206e19193d9d2e9d164299ffc32c14fd",
+    "semantic_hash": "206e19193d9d2e9d164299ffc32c14fd"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_subagent_skills_config.py": {
+    "mtime": 1777704071.3140974,
+    "ast_hash": "5366c644d7a2064cb692d0c36702ba00",
+    "semantic_hash": "5366c644d7a2064cb692d0c36702ba00"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_subagent_timeout_config.py": {
+    "mtime": 1777704071.3140974,
+    "ast_hash": "a73635d9e0d2634f8817d410f294e303",
+    "semantic_hash": "a73635d9e0d2634f8817d410f294e303"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_subagent_token_collector.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "3088566e71582033659047a0f3963cfb",
+    "semantic_hash": "3088566e71582033659047a0f3963cfb"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_suggestions_router.py": {
+    "mtime": 1777704071.3140974,
+    "ast_hash": "ab9f8317844b31732bbaecd31b823405",
+    "semantic_hash": "ab9f8317844b31732bbaecd31b823405"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_summarization_middleware.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "b5458e31aa329e94fa0489567a7daa97",
+    "semantic_hash": "b5458e31aa329e94fa0489567a7daa97"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_task_tool_core_logic.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "75b8547924c681ced7161b35de99bb87",
+    "semantic_hash": "75b8547924c681ced7161b35de99bb87"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_task_tool_usage_recorder.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "a353a65f0f070e8036eba7a53cbb7d08",
+    "semantic_hash": "a353a65f0f070e8036eba7a53cbb7d08"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_thread_data_middleware.py": {
+    "mtime": 1777704071.3140974,
+    "ast_hash": "6e632d90126ddcd28c0132469ef466f4",
+    "semantic_hash": "6e632d90126ddcd28c0132469ef466f4"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_thread_meta_repo.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "9c759ff459fd07626605a33100f57aa8",
+    "semantic_hash": "9c759ff459fd07626605a33100f57aa8"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_thread_run_messages_pagination.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "9aebb909568c7c7359feca76c528c458",
+    "semantic_hash": "9aebb909568c7c7359feca76c528c458"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_thread_state_promoted.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "bbbe70f54a499650cd7d705e74593833",
+    "semantic_hash": "bbbe70f54a499650cd7d705e74593833"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_thread_state_reducers.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "8ec82336ea94f85ae2e7f505756255a2",
+    "semantic_hash": "8ec82336ea94f85ae2e7f505756255a2"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_thread_token_usage.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "6b8dccf7d88589162bf48e8144316112",
+    "semantic_hash": "6b8dccf7d88589162bf48e8144316112"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_threads_router.py": {
+    "mtime": 1780665232.7584164,
+    "ast_hash": "de57b53314bd207394f2efe1c63c6c1f",
+    "semantic_hash": "de57b53314bd207394f2efe1c63c6c1f"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_title_generation.py": {
+    "mtime": 1777704071.3140974,
+    "ast_hash": "6955c73953acdcf2b7630e3828a89770",
+    "semantic_hash": "6955c73953acdcf2b7630e3828a89770"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_title_middleware_core_logic.py": {
+    "mtime": 1780665232.7624164,
+    "ast_hash": "5af42627bb8c89a32801d1a82ffa03b3",
+    "semantic_hash": "5af42627bb8c89a32801d1a82ffa03b3"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_todo_middleware.py": {
+    "mtime": 1780665232.7624164,
+    "ast_hash": "860e8431a87f1f574f9c2a92be0a399a",
+    "semantic_hash": "860e8431a87f1f574f9c2a92be0a399a"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_token_usage.py": {
+    "mtime": 1777704071.3140974,
+    "ast_hash": "58811b9032b3988b37343f26aa4c014d",
+    "semantic_hash": "58811b9032b3988b37343f26aa4c014d"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_token_usage_config.py": {
+    "mtime": 1780665232.7624164,
+    "ast_hash": "e17fb9aa36e501a21e612f775046cd5d",
+    "semantic_hash": "e17fb9aa36e501a21e612f775046cd5d"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_token_usage_middleware.py": {
+    "mtime": 1780665232.7624164,
+    "ast_hash": "52dd3d8393e27c16ff1f04fde0d70729",
+    "semantic_hash": "52dd3d8393e27c16ff1f04fde0d70729"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_tool_args_schema_no_pydantic_warning.py": {
+    "mtime": 1780665232.7624164,
+    "ast_hash": "7e2886959b0f3658a8cb49138510e821",
+    "semantic_hash": "7e2886959b0f3658a8cb49138510e821"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_tool_deduplication.py": {
+    "mtime": 1780665232.7624164,
+    "ast_hash": "207b2268e394e14978581a68dba5f2ba",
+    "semantic_hash": "207b2268e394e14978581a68dba5f2ba"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_tool_error_handling_middleware.py": {
+    "mtime": 1780665232.7624164,
+    "ast_hash": "19b8c62c08a4e3cd9bfde3e36d0ab7ba",
+    "semantic_hash": "19b8c62c08a4e3cd9bfde3e36d0ab7ba"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_tool_output_budget_middleware.py": {
+    "mtime": 1780665232.7624164,
+    "ast_hash": "b7575d56d152610fee6190f56232a396",
+    "semantic_hash": "b7575d56d152610fee6190f56232a396"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_tool_output_truncation.py": {
+    "mtime": 1777704071.3180974,
+    "ast_hash": "9b7a2b31b13e3f09660cadecb5684989",
+    "semantic_hash": "9b7a2b31b13e3f09660cadecb5684989"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_tool_search.py": {
+    "mtime": 1780665232.7624164,
+    "ast_hash": "513939d2b4eccde582fadb0193a93514",
+    "semantic_hash": "513939d2b4eccde582fadb0193a93514"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_tracing_config.py": {
+    "mtime": 1780665232.7624164,
+    "ast_hash": "1951cb336d6eed81919d11e0866ff2b0",
+    "semantic_hash": "1951cb336d6eed81919d11e0866ff2b0"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_tracing_factory.py": {
+    "mtime": 1780665232.7624164,
+    "ast_hash": "652117a27b425216ec00f5264a406535",
+    "semantic_hash": "652117a27b425216ec00f5264a406535"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_tracing_metadata.py": {
+    "mtime": 1780665232.7624164,
+    "ast_hash": "c1ca28e9e53a971f1631ee33baa865fd",
+    "semantic_hash": "c1ca28e9e53a971f1631ee33baa865fd"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_update_agent_e2e_user_isolation.py": {
+    "mtime": 1780665232.7624164,
+    "ast_hash": "3639d8e82ac8e277529553df809dc0ee",
+    "semantic_hash": "3639d8e82ac8e277529553df809dc0ee"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_update_agent_tool.py": {
+    "mtime": 1780665232.7624164,
+    "ast_hash": "4a38cc6da34f5bfaaf11a3565b445fbc",
+    "semantic_hash": "4a38cc6da34f5bfaaf11a3565b445fbc"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_uploads_manager.py": {
+    "mtime": 1780665232.7624164,
+    "ast_hash": "7c05c56078090a3abdd5c63d0a7bc202",
+    "semantic_hash": "7c05c56078090a3abdd5c63d0a7bc202"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_uploads_middleware_core_logic.py": {
+    "mtime": 1777704071.3180974,
+    "ast_hash": "06f34fc1d33246bbca1c6af433c2b502",
+    "semantic_hash": "06f34fc1d33246bbca1c6af433c2b502"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_uploads_router.py": {
+    "mtime": 1780665232.7624164,
+    "ast_hash": "a6571c884f4d28bc84e7ded56decaf80",
+    "semantic_hash": "a6571c884f4d28bc84e7ded56decaf80"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_user_context.py": {
+    "mtime": 1777704071.3180974,
+    "ast_hash": "2a07fabcf28d80e6afd4220356a332a7",
+    "semantic_hash": "2a07fabcf28d80e6afd4220356a332a7"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_utils_time.py": {
+    "mtime": 1780665232.7624164,
+    "ast_hash": "d7c657a1d2da9e2cf3de6e0e6a7d3535",
+    "semantic_hash": "d7c657a1d2da9e2cf3de6e0e6a7d3535"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_view_image_middleware.py": {
+    "mtime": 1777704071.3180974,
+    "ast_hash": "a6351c533eab6c3f468606756d4c7235",
+    "semantic_hash": "a6351c533eab6c3f468606756d4c7235"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_view_image_tool.py": {
+    "mtime": 1777704071.3180974,
+    "ast_hash": "f5c0c6056604625d81114f123d0e20fc",
+    "semantic_hash": "f5c0c6056604625d81114f123d0e20fc"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_vllm_provider.py": {
+    "mtime": 1777704071.3180974,
+    "ast_hash": "5bcd74a294d85e2285b247e1e4959ab8",
+    "semantic_hash": "5bcd74a294d85e2285b247e1e4959ab8"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_wait_disconnect_handling.py": {
+    "mtime": 1780665232.7624164,
+    "ast_hash": "fe55d95bf37610dcefcac06362e6c0ff",
+    "semantic_hash": "fe55d95bf37610dcefcac06362e6c0ff"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_wechat_channel.py": {
+    "mtime": 1777704071.3180974,
+    "ast_hash": "0aecc630b997f3d5869fcb8a9fa5a195",
+    "semantic_hash": "0aecc630b997f3d5869fcb8a9fa5a195"
+  },
+  "/home/glory/code/github/deer-flow/backend/tests/test_worker_langfuse_metadata.py": {
+    "mtime": 1780665232.7624164,
+    "ast_hash": "40f90acee34963a6083cfae461e87014",
+    "semantic_hash": "40f90acee34963a6083cfae461e87014"
+  },
+  "/home/glory/code/github/deer-flow/backend/AGENTS.md": {
+    "mtime": 1777704071.1940973,
+    "ast_hash": "79696c15ff0febec6c2954355305c2d3",
+    "semantic_hash": "79696c15ff0febec6c2954355305c2d3"
+  },
+  "/home/glory/code/github/deer-flow/backend/CLAUDE.md": {
+    "mtime": 1780665232.7264166,
+    "ast_hash": "8cee9c0d689c9620010af429e1c30145",
+    "semantic_hash": "8cee9c0d689c9620010af429e1c30145"
+  },
+  "/home/glory/code/github/deer-flow/backend/CONTRIBUTING.md": {
+    "mtime": 1780665232.7264166,
+    "ast_hash": "e6e9d7dc9597416248bd7aad4ccea976",
+    "semantic_hash": "e6e9d7dc9597416248bd7aad4ccea976"
+  },
+  "/home/glory/code/github/deer-flow/backend/README.md": {
+    "mtime": 1780665232.7264166,
+    "ast_hash": "c8144e2a6b3ea9e2f59e4985c309c986",
+    "semantic_hash": "c8144e2a6b3ea9e2f59e4985c309c986"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/API.md": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "8474e2ffb7b6be4f69ec07a24915e7be",
+    "semantic_hash": "8474e2ffb7b6be4f69ec07a24915e7be"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/APPLE_CONTAINER.md": {
+    "mtime": 1777704071.2140975,
+    "ast_hash": "f7a057ba068811dcd47058c714dba344",
+    "semantic_hash": "f7a057ba068811dcd47058c714dba344"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/ARCHITECTURE.md": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "5a084909c7ef123b3d7585cb445a4d44",
+    "semantic_hash": "5a084909c7ef123b3d7585cb445a4d44"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/AUTH_DESIGN.md": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "da41360142734f4880ce3b1b36165a2e",
+    "semantic_hash": "da41360142734f4880ce3b1b36165a2e"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/AUTH_TEST_DOCKER_GAP.md": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "4f1e437f9b567cb119790ca5fb74e270",
+    "semantic_hash": "4f1e437f9b567cb119790ca5fb74e270"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/AUTH_TEST_PLAN.md": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "3cf912a13a132c1cc82e8cac8814120c",
+    "semantic_hash": "3cf912a13a132c1cc82e8cac8814120c"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/AUTH_UPGRADE.md": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "b784cc1d2ed06836b9a10dbc7568485f",
+    "semantic_hash": "b784cc1d2ed06836b9a10dbc7568485f"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/AUTO_TITLE_GENERATION.md": {
+    "mtime": 1777704071.2140975,
+    "ast_hash": "0c2d345deb430a9d2da12c0989f23c22",
+    "semantic_hash": "0c2d345deb430a9d2da12c0989f23c22"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/BLOCKING_IO_DETECTION.md": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "a0a031c8fe696bc76e6b56c2bdde78b1",
+    "semantic_hash": "a0a031c8fe696bc76e6b56c2bdde78b1"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/CONFIGURATION.md": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "6e6635835e604480b9ff760377b45470",
+    "semantic_hash": "6e6635835e604480b9ff760377b45470"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/FILE_UPLOAD.md": {
+    "mtime": 1777704071.2140975,
+    "ast_hash": "dd9dc2ce13267a5a313004d38f027c24",
+    "semantic_hash": "dd9dc2ce13267a5a313004d38f027c24"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/GUARDRAILS.md": {
+    "mtime": 1777704071.2140975,
+    "ast_hash": "d85f356ad69745480380b20857642424",
+    "semantic_hash": "d85f356ad69745480380b20857642424"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/MCP_SERVER.md": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "8c3109696ba03a2d8140cb0692d22d05",
+    "semantic_hash": "8c3109696ba03a2d8140cb0692d22d05"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/MEMORY_IMPROVEMENTS.md": {
+    "mtime": 1777704071.2180974,
+    "ast_hash": "c208f73c9151a3f9eefaec564ef3b0a0",
+    "semantic_hash": "c208f73c9151a3f9eefaec564ef3b0a0"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/MEMORY_IMPROVEMENTS_SUMMARY.md": {
+    "mtime": 1777704071.2180974,
+    "ast_hash": "6d07cdb2e9e41c36a35d72e73e7a1800",
+    "semantic_hash": "6d07cdb2e9e41c36a35d72e73e7a1800"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/MEMORY_SETTINGS_REVIEW.md": {
+    "mtime": 1777704071.2180974,
+    "ast_hash": "195a6a8d9e908a97d4ccab28c5352248",
+    "semantic_hash": "195a6a8d9e908a97d4ccab28c5352248"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/PATH_EXAMPLES.md": {
+    "mtime": 1777704071.2180974,
+    "ast_hash": "fd416345ad9470d625fd4f7604df0783",
+    "semantic_hash": "fd416345ad9470d625fd4f7604df0783"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/README.md": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "ae665287b124b805ed07b1085f144139",
+    "semantic_hash": "ae665287b124b805ed07b1085f144139"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/SANDBOX_MEMORY_PROFILING.md": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "09163bb0c36479fb82c48bccc8b931c5",
+    "semantic_hash": "09163bb0c36479fb82c48bccc8b931c5"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/SETUP.md": {
+    "mtime": 1777704071.2180974,
+    "ast_hash": "6bcf4ae4cec9af54abc073ef857e6755",
+    "semantic_hash": "6bcf4ae4cec9af54abc073ef857e6755"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/STREAMING.md": {
+    "mtime": 1777704071.2180974,
+    "ast_hash": "807752bbca9eaf5990e97bc2817f96c6",
+    "semantic_hash": "807752bbca9eaf5990e97bc2817f96c6"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/TITLE_GENERATION_IMPLEMENTATION.md": {
+    "mtime": 1777704071.2180974,
+    "ast_hash": "419118756bd3b7398a03650dbdd0440b",
+    "semantic_hash": "419118756bd3b7398a03650dbdd0440b"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/TODO.md": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "408604b0db3b97cca23e7f73df155ed0",
+    "semantic_hash": "408604b0db3b97cca23e7f73df155ed0"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/middleware-execution-flow.md": {
+    "mtime": 1780665232.7304165,
+    "ast_hash": "ae429861d34291065b5b159a62b92a30",
+    "semantic_hash": "ae429861d34291065b5b159a62b92a30"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/plan_mode_usage.md": {
+    "mtime": 1777704071.2180974,
+    "ast_hash": "63fe84b068a9c04adf2a696a295fc48b",
+    "semantic_hash": "63fe84b068a9c04adf2a696a295fc48b"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/rfc-create-deerflow-agent.md": {
+    "mtime": 1777704071.2180974,
+    "ast_hash": "cf10b9943f09f84351563f8d92f19a96",
+    "semantic_hash": "cf10b9943f09f84351563f8d92f19a96"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/rfc-extract-shared-modules.md": {
+    "mtime": 1777704071.2180974,
+    "ast_hash": "5fc05317b4ac696d8f0eb30b80c46450",
+    "semantic_hash": "5fc05317b4ac696d8f0eb30b80c46450"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/rfc-grep-glob-tools.md": {
+    "mtime": 1777704071.2180974,
+    "ast_hash": "d963e5378ff6ba3e5f192c159f67fa12",
+    "semantic_hash": "d963e5378ff6ba3e5f192c159f67fa12"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/summarization.md": {
+    "mtime": 1777704071.2180974,
+    "ast_hash": "e07d069c4cd39d411f944390307238f8",
+    "semantic_hash": "e07d069c4cd39d411f944390307238f8"
+  },
+  "/home/glory/code/github/deer-flow/backend/docs/task_tool_improvements.md": {
+    "mtime": 1777704071.2180974,
+    "ast_hash": "682ba360a6b7fee9c6a594e6895f0f0a",
+    "semantic_hash": "682ba360a6b7fee9c6a594e6895f0f0a"
+  }
+}
